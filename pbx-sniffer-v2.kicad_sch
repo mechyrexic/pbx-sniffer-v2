@@ -11,33 +11,60 @@
 		(comment 4 "Tobe Cynar")
 	)
 	(lib_symbols
-		(symbol "74xx:74LS165"
+		(symbol "Analog_ADC:MCP3008"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -7.62 19.05 0)
+				(at -5.08 13.335 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "74LS165"
-				(at -7.62 -21.59 0)
+			(property "Value" "MCP3008"
+				(at -5.08 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -48,7 +75,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf"
+			(property "ki_keywords" "12bit ADC Reference Single Supply SPI 8CH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +86,7 @@
 					)
 				)
 			)
-			(property "Description" "Shift Register 8-bit, parallel load"
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,33 +97,122 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TTL SR SR8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "MCP3008_0_0"
+				(text "MUX"
+					(at -6.35 -1.27 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "ADC"
+					(at -0.635 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "CNTRL"
+					(at 5.969 -2.921 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "MCP3008_0_1"
+				(polyline
+					(pts
+						(xy -7.62 8.89) (xy -7.62 -11.43) (xy -5.08 -10.16) (xy -5.08 7.62) (xy -7.62 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.175) (xy 1.905 -0.635) (xy -2.54 -0.635) (xy -3.81 1.27) (xy -2.54 3.175) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.175) (xy -3.81 -3.175) (xy -3.81 -11.43) (xy -6.35 -11.43) (xy -6.35 -10.795)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -3.81)
+					(end 6.985 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 12.7 -12.7)
+					(end -12.7 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
-			(symbol "74LS165_1_0"
+			(symbol "MCP3008_1_1"
 				(pin input line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "~{PL}"
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "CH0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -112,9 +228,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -15.24 0)
-					(length 5.08)
-					(name "CP"
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "CH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -130,9 +246,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D4"
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "CH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -148,9 +264,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "D5"
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "CH3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -166,9 +282,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D6"
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "CH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -184,9 +300,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "D7"
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "CH5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -201,10 +317,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 12.7 180)
-					(length 5.08)
-					(name "~{Q7}"
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "CH6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -219,10 +335,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -25.4 90)
-					(length 5.08)
-					(name "GND"
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "CH7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -237,10 +353,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 15.24 180)
-					(length 5.08)
-					(name "Q7"
+				(pin power_in line
+					(at 5.08 -15.24 90)
+					(length 2.54)
+					(name "DGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -256,9 +372,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 15.24 0)
-					(length 5.08)
-					(name "DS"
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "~{CS}/SHDN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -274,9 +390,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 12.7 0)
-					(length 5.08)
-					(name "D0"
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "Din"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,10 +407,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 5.08)
-					(name "D1"
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "Dout"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,10 +425,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "D2"
+				(pin input clock
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -327,10 +443,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "D3"
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,10 +461,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -17.78 0)
-					(length 5.08)
-					(name "~{CE}"
+				(pin power_in line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "Vref"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -364,9 +480,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 22.86 270)
-					(length 5.08)
-					(name "VCC"
+					(at 5.08 12.7 270)
+					(length 2.54)
+					(name "Vdd"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -379,19 +495,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "74LS165_1_1"
-				(rectangle
-					(start -7.62 17.78)
-					(end 7.62 -20.32)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -2604,130 +2707,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS165")
-		(at 218.44 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2be61578-dd27-451d-952d-0e2535ed2bd5")
-		(property "Reference" "U2"
-			(at 220.5833 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS165"
-			(at 220.5833 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf"
-			(at 218.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Shift Register 8-bit, parallel load"
-			(at 218.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "0a2bec26-5b99-4ff2-9b80-2c556e3ea5e6")
-		)
-		(pin "7"
-			(uuid "ef0db096-89ef-4eeb-9026-b4ce34eec7e0")
-		)
-		(pin "3"
-			(uuid "c084d6aa-8fe5-4ff1-8ceb-204d7f40ba16")
-		)
-		(pin "5"
-			(uuid "2ee183e0-b54e-4d3b-af6b-9c710aeaca6a")
-		)
-		(pin "8"
-			(uuid "8cf8ba25-5bfa-486d-aac3-5875be2f7d57")
-		)
-		(pin "4"
-			(uuid "32d64c4d-6fe5-4374-96e0-c3657f66302e")
-		)
-		(pin "2"
-			(uuid "2a593c8f-e888-4760-8634-f8bca689c268")
-		)
-		(pin "10"
-			(uuid "2ca77b7b-f57b-4e1a-895f-1b6d19ac917f")
-		)
-		(pin "6"
-			(uuid "072ca66c-9153-4344-867d-02df22432158")
-		)
-		(pin "9"
-			(uuid "29c04d4b-3ffa-46da-8a12-1834a215e2cc")
-		)
-		(pin "1"
-			(uuid "e7971c5b-8a64-4d64-a0d0-d0ffb76e5b08")
-		)
-		(pin "12"
-			(uuid "3900177b-ac9a-4f5d-87fc-77acd8d08cda")
-		)
-		(pin "11"
-			(uuid "0466d33f-6e4a-4b6f-a4f1-3b81f96d628a")
-		)
-		(pin "15"
-			(uuid "77dd0b19-451f-4252-aec1-85fa2d8a108d")
-		)
-		(pin "16"
-			(uuid "8162618d-fcf1-4fed-9e51-ec2615703734")
-		)
-		(pin "13"
-			(uuid "2c7a000a-a803-4f61-973e-faf6ec82a9a3")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Nucleo:STM32NucleoF303RE")
 		(at 105.41 58.42 0)
 		(unit 2)
@@ -3039,6 +3018,130 @@
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:MCP3008")
+		(at 167.64 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559df591-5c76-497e-ab00-678509e524ea")
+		(property "Reference" "U8"
+			(at 174.8633 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP3008"
+			(at 174.8633 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf"
+			(at 170.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"
+			(at 167.64 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1bc7136-08bd-4d7d-967f-caf67121f5f2")
+		)
+		(pin "11"
+			(uuid "ffec5928-7d56-4647-8983-f366c98d07d2")
+		)
+		(pin "10"
+			(uuid "e1f05ec0-5252-417a-b467-fc482f49e24c")
+		)
+		(pin "6"
+			(uuid "33a5e767-27e5-4eb5-ac06-7b7e76c7020b")
+		)
+		(pin "15"
+			(uuid "01ee53dc-323f-4ecf-a45e-422b23acb1b2")
+		)
+		(pin "7"
+			(uuid "eb23c418-7efd-4cca-bb5f-51b32728ebe0")
+		)
+		(pin "13"
+			(uuid "1a3e139b-36fd-484f-8855-95b6d17fc09d")
+		)
+		(pin "16"
+			(uuid "9ff6822e-13f6-474f-9eca-26292e5ca1b9")
+		)
+		(pin "5"
+			(uuid "f677c3e7-d45b-4a66-b4a8-199535d803ed")
+		)
+		(pin "14"
+			(uuid "3de2e868-67ea-4f48-93db-b64575c97cf1")
+		)
+		(pin "12"
+			(uuid "ad4d9599-0d3d-463a-9661-a63f2bf0cf62")
+		)
+		(pin "1"
+			(uuid "aec16624-4b57-403f-831f-0f796dfdd079")
+		)
+		(pin "8"
+			(uuid "c626534a-21bf-4859-9eb2-24cd6fa113ad")
+		)
+		(pin "4"
+			(uuid "3a360aa9-6b47-441b-a37f-7ada2f7ae72e")
+		)
+		(pin "9"
+			(uuid "676b32e8-82d6-4662-b6f0-6faf3c0b9abf")
+		)
+		(pin "3"
+			(uuid "79523f85-0c0b-4452-9c1b-a2a3e4e8d41f")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(reference "U8")
+					(unit 1)
 				)
 			)
 		)
@@ -3360,8 +3463,220 @@
 		)
 	)
 	(sheet
-		(at 209.55 110.49)
-		(size 36.83 11.43)
+		(at 204.47 100.33)
+		(size 36.83 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b0224b2-e87f-4eed-adc6-d3b2e3f746a5")
+		(property "Sheetname" "LineCtrl4"
+			(at 204.47 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "linectrl.kicad_sch"
+			(at 204.47 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "audioOut1" output
+			(at 241.3 102.87 0)
+			(uuid "dd35826b-bba6-4251-a9ec-661269d55f75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "audioOut2" output
+			(at 241.3 105.41 0)
+			(uuid "9ad0d337-dd3e-4a34-bea2-f18ad5534ea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "controlSW1" input
+			(at 204.47 102.87 180)
+			(uuid "abaae954-601b-489b-a92c-67b8cce07c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "controlSW2" input
+			(at 204.47 105.41 180)
+			(uuid "60aee35e-570f-4f25-bc9e-bb6237575955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW1" input
+			(at 204.47 107.95 180)
+			(uuid "808718e2-2498-4ea4-814e-387ed808513c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW2" input
+			(at 204.47 110.49 180)
+			(uuid "52030ee6-b7c8-4d5c-9dda-0e9933951c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 82.55)
+		(size 36.83 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b0f9f7c2-daf3-42bc-b325-e20704d56b03")
+		(property "Sheetname" "LineCtrl3"
+			(at 204.47 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "linectrl.kicad_sch"
+			(at 204.47 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "audioOut1" output
+			(at 241.3 85.09 0)
+			(uuid "1e83c213-6253-49f7-ac3f-079d586d1a87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "audioOut2" output
+			(at 241.3 87.63 0)
+			(uuid "aea061a1-d2fa-4660-8d45-b128096c8cfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "controlSW1" input
+			(at 204.47 85.09 180)
+			(uuid "633b419b-ea62-4114-884a-33795b9ed4cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "controlSW2" input
+			(at 204.47 87.63 180)
+			(uuid "52081289-ba69-41d2-a247-03d37d04e422")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW1" input
+			(at 204.47 90.17 180)
+			(uuid "6645fe9c-f878-425e-abd6-62b95353a391")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW2" input
+			(at 204.47 92.71 180)
+			(uuid "d580dd8a-a14c-4136-96b5-4996ae49d931")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 46.99)
+		(size 36.83 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3376,7 +3691,7 @@
 		)
 		(uuid "d196d4b4-6022-462f-b84d-8329b2cd3e57")
 		(property "Sheetname" "LineCtrl1"
-			(at 209.55 109.7784 0)
+			(at 204.47 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3387,7 +3702,7 @@
 			)
 		)
 		(property "Sheetfile" "linectrl.kicad_sch"
-			(at 209.55 122.5046 0)
+			(at 204.47 60.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3397,10 +3712,262 @@
 				(justify left top)
 			)
 		)
+		(pin "audioOut1" output
+			(at 241.3 49.53 0)
+			(uuid "7e3a2250-40c5-4e84-a831-7cb2ba14ce57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "audioOut2" output
+			(at 241.3 52.07 0)
+			(uuid "f041ab53-4ca0-461b-91cf-e80f9c5daac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "controlSW1" input
+			(at 204.47 49.53 180)
+			(uuid "58ff662e-aa00-4826-83b7-00e417fa0a39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "controlSW2" input
+			(at 204.47 52.07 180)
+			(uuid "fd29ebfd-57fa-475e-9f24-69c699713d31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW1" input
+			(at 204.47 54.61 180)
+			(uuid "56d834a1-c8ee-4f7c-9ee1-441508e17bd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW2" input
+			(at 204.47 57.15 180)
+			(uuid "8e85baed-98e5-4c3a-b2c9-816b69420ffa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 64.77)
+		(size 36.83 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e134bfb4-8959-4249-a7dd-8912fc4b0eb6")
+		(property "Sheetname" "LineCtrl2"
+			(at 204.47 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "linectrl.kicad_sch"
+			(at 204.47 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "audioOut1" output
+			(at 241.3 67.31 0)
+			(uuid "d92bfc84-2270-4ee0-846f-5ef491366c95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "audioOut2" output
+			(at 241.3 69.85 0)
+			(uuid "1ec5d92a-b68e-4994-9165-018eb33b0a84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "controlSW1" input
+			(at 204.47 67.31 180)
+			(uuid "6c07f51b-037d-4313-b3ee-2b16c1e8fdd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "controlSW2" input
+			(at 204.47 69.85 180)
+			(uuid "1986b9f2-e1e1-4485-98ab-0fbe7acf9b3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW1" input
+			(at 204.47 72.39 180)
+			(uuid "5dd67cf8-20bf-402c-aaec-e9ba048bc931")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW2" input
+			(at 204.47 74.93 180)
+			(uuid "53545d38-754e-4451-99b8-de92be648c9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 127)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1")
+		(property "Sheetname" "TransferBtns"
+			(at 204.47 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transferbtns.kicad_sch"
+			(at 204.47 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "shiftClk" input
+			(at 204.47 129.54 180)
+			(uuid "84b5c569-30cf-4b76-9a9e-55497f109d0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "shiftInh" input
+			(at 204.47 132.08 180)
+			(uuid "1c6910a8-4294-401d-8b76-8042b8bb5caa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "shiftLd" input
+			(at 204.47 134.62 180)
+			(uuid "e6b2a1ee-7a6d-47c1-8deb-68abf5c05145")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "shiftOut" output
+			(at 224.79 129.54 0)
+			(uuid "aea0f09b-4a8c-40cd-a19b-5a2001a3d226")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(page "6")
 				)
 			)
 		)

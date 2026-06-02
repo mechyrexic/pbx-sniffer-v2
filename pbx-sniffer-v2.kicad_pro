@@ -416,7 +416,7 @@
         "uuid": "eb421281-26a1-483f-b39a-0425ec8eb8df"
       }
     ],
-    "used_designators": "T1-2,U1-8,Q1-4,K1-4,R1-16,JP1-2,C1-6,D1-8,#PWR1-23",
+    "used_designators": "U2,R65,R102-108,J1-2,J49-56,#PWR16,#PWR21-22,#PWR36,#PWR38,#PWR43-44,#PWR58,#PWR60,#PWR65-66,#PWR80,#PWR82,#PWR87-109",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,22 @@
     [
       "d196d4b4-6022-462f-b84d-8329b2cd3e57",
       "LineCtrl1"
+    ],
+    [
+      "e134bfb4-8959-4249-a7dd-8912fc4b0eb6",
+      "LineCtrl2"
+    ],
+    [
+      "b0f9f7c2-daf3-42bc-b325-e20704d56b03",
+      "LineCtrl3"
+    ],
+    [
+      "0b0224b2-e87f-4eed-adc6-d3b2e3f746a5",
+      "LineCtrl4"
+    ],
+    [
+      "e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1",
+      "TransferBtns"
     ]
   ],
   "text_variables": {},

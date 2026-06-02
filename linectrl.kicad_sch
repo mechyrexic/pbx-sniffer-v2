@@ -2928,6 +2928,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 22.86 144.78)
@@ -3136,6 +3262,12 @@
 		(uuid "d3d926ec-80ef-4582-a95c-92f668ca2199")
 	)
 	(junction
+		(at 185.42 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ca10848-477d-4173-b58e-fdaa9ff8222f")
+	)
+	(junction
 		(at 97.79 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3256,6 +3388,12 @@
 		(uuid "9f0c0b92-7c4b-4d0d-aa87-1ca6c79b6afd")
 	)
 	(junction
+		(at 185.42 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e81433-54d8-4e87-b68e-9b18498ecb5e")
+	)
+	(junction
 		(at 138.43 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3286,12 +3424,6 @@
 		(uuid "c225a360-a193-459f-bbb8-5b100e8b4570")
 	)
 	(junction
-		(at 185.42 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd0575da-4cde-4bc2-b130-8e83989b6bc8")
-	)
-	(junction
 		(at 233.68 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3320,12 +3452,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eac6f32d-94b2-4285-88ae-ba5ae08a21e7")
-	)
-	(junction
-		(at 185.42 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec540bc5-9449-4277-ad96-60a5a5b5f3e1")
 	)
 	(junction
 		(at 114.3 101.6)
@@ -5171,12 +5297,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "b25ca77c-b364-4eb3-9fe3-06115d978e4b")
+			(uuid "aa52a426-788d-4533-9c32-0547686f99b9")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR054")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 233.68 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05157896-45c8-41db-9d50-ad753fb34634")
+		(property "Reference" "#PWR021"
+			(at 233.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 233.68 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 233.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e11c0a6c-48ae-48ea-9408-8d1783ad2d39")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5248,15 +5476,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "9016de36-7890-4813-8d18-3c4e1e821951")
+			(uuid "553e5005-4323-4beb-a3f3-b02a16cd5243")
 		)
 		(pin "2"
-			(uuid "c5aca2a0-1e99-41c2-9bd6-bb6904fe1cbf")
+			(uuid "def12edb-8d5e-4e20-81de-84c24fa22384")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R34")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5328,12 +5568,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c54dc2b-ac70-4819-98af-81cc4364126c")
+			(uuid "a98c502e-e692-4c6e-94fd-fdc6cc3f23cd")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR047")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5411,10 +5663,10 @@
 			(uuid "fcab98c5-ab7a-467a-ac67-fa6f31381282")
 		)
 		(pin "5"
-			(uuid "a5e18dc3-5272-4568-ba23-67882188d512")
+			(uuid "1314d3cd-8aaf-4d83-b6d8-65177b424704")
 		)
 		(pin "7"
-			(uuid "5af4130b-7e14-43a7-9f63-7f56b34f1e33")
+			(uuid "2480733d-88c5-441d-a4e2-22889ac2942f")
 		)
 		(pin "3"
 			(uuid "9e2af52a-8d47-4fd3-96d2-bc44373ae4bc")
@@ -5426,90 +5678,25 @@
 			(uuid "b1863c33-1046-4b41-827f-ab53de0b1ec7")
 		)
 		(pin "6"
-			(uuid "a5764dd2-e5e1-459e-9271-ab6709cff1b5")
+			(uuid "cc572084-0029-45aa-9405-7fcc19b4cf8b")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U21")
+					(unit 2)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U16")
+					(unit 2)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "U5")
 					(unit 2)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "14331cd1-44cb-4c60-940c-24cbbfb35640")
-		(property "Reference" "#PWR016"
-			(at 185.42 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "700f942d-e5ca-40e3-9722-e009a9b8c619")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR016")
-					(unit 1)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U11")
+					(unit 2)
 				)
 			)
 		)
@@ -5593,21 +5780,33 @@
 			)
 		)
 		(pin "5"
-			(uuid "ed5f1d1f-7d46-4b96-918d-9f2a6c5df577")
+			(uuid "0b10f2a9-932f-4569-b08d-826ce1faf226")
 		)
 		(pin "7"
-			(uuid "31f9ecf4-8bc9-4e33-919b-c76c92ebaee7")
+			(uuid "89c7c979-41cf-4044-b763-09e295f04664")
 		)
 		(pin "3"
-			(uuid "cfb6885d-ac5b-4360-9fed-e01546b56850")
+			(uuid "097a3909-9a87-4711-b9ef-4ae2026ccd16")
 		)
 		(pin "1"
-			(uuid "1db78ee8-781a-42cc-9a68-450c03e42ed5")
+			(uuid "e5ce103c-5da1-485b-afcb-859fb6fb7629")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "K13")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "K9")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "K1")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -5679,12 +5878,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "aeaecef5-07b4-4b3b-bf43-54c8b28e0967")
+			(uuid "f91ffa06-62cd-4777-9453-b60430418f8f")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR052")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5758,15 +5969,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "032810e7-faf9-4177-a3ff-94ddb2730c58")
+			(uuid "ed12cbbb-c2ef-4a75-bbd9-4b4cc3d6c1df")
 		)
 		(pin "2"
-			(uuid "c207eb82-cef9-4ede-b21c-87ae1cc6a74d")
+			(uuid "b14a9e5b-8f6b-492c-a34f-e0a0864f8434")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R38")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5850,24 +6073,36 @@
 			)
 		)
 		(pin "4"
-			(uuid "28b7987d-ebe0-49ff-ac8b-cfc22655af6f")
+			(uuid "0281000d-95f5-4b55-8e9d-27a26c9b9dea")
 		)
 		(pin "3"
-			(uuid "ea6b9249-ca1a-47dc-88ce-36cc247dda7e")
+			(uuid "e68d1021-8a2a-4e49-9967-2d804f6d3aed")
 		)
 		(pin "5"
-			(uuid "15db78aa-d1ac-434b-8d6e-d669ba05054c")
+			(uuid "662d5b8d-5d5b-467c-a174-c30eabea8089")
 		)
 		(pin "2"
-			(uuid "56230c44-262d-4499-80ea-7629718bdf34")
+			(uuid "92d910e0-aa32-4ae0-9c5f-707efc67fbe3")
 		)
 		(pin "1"
-			(uuid "55d5db29-0e65-4f84-9487-a70e3d492d4a")
+			(uuid "20a9ec1f-4b7d-4d56-a920-147183eac4d6")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "K15")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "K11")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "K3")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "K7")
 					(unit 1)
 				)
 			)
@@ -5939,15 +6174,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "69b6690d-beba-471f-9e6d-2eb5356c8889")
+			(uuid "d7c592c2-a2b3-4028-86ac-e24c17e85aab")
 		)
 		(pin "1"
-			(uuid "3472079c-ad88-47fc-9934-20022ca50be5")
+			(uuid "4cd030e5-49a9-43af-b628-2ca9a8b30f2a")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "C13")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "C1")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6021,18 +6268,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "34c8fe67-f3ba-4702-b199-4bca1a5b0b54")
+			(uuid "e2fb918c-7d91-4c47-a500-dc1f3b8807fb")
 		)
 		(pin "2"
-			(uuid "bc5c9d33-f6c0-4369-a7fe-f5a2d066423b")
+			(uuid "3134048b-b7e5-47c5-97bf-f331f5ef12fb")
 		)
 		(pin "1"
-			(uuid "1b8b49cd-df12-4956-ad0a-20b95a3da617")
+			(uuid "22cddd0f-bf81-4bfd-b2b6-a1df44258612")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "JP8")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "JP6")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "JP2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -6128,92 +6387,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "07be4b70-e4ac-4ce9-9a28-89c11fa2d880")
+			(uuid "f5a8cb7f-d759-4823-a080-da372ca19538")
 		)
 		(pin "1"
-			(uuid "80c072f0-d5de-486b-81b3-a0de791a9f78")
+			(uuid "9fcf5646-9a9c-4547-b2b3-ab07df7eb2b7")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D19")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D3")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ca5d1c9-0740-4409-a4ad-4527a3c6bfc6")
-		(property "Reference" "#PWR022"
-			(at 233.68 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ca1cf20-b20f-4573-80c3-6c9d699384e8")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR022")
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6285,12 +6479,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "e64c4905-8741-4b17-b277-bcf05be83e60")
+			(uuid "314e68a9-1b2e-417c-a878-29aab1e89882")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR056")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6362,12 +6568,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "17b0959c-42e9-4262-92d6-823d9aaa36fc")
+			(uuid "20d0adf1-ea7d-472c-9a2f-a3fedaad4e76")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR050")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6485,95 +6703,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "839d0066-f042-4292-8994-de3e2a579b30")
+			(uuid "bf0b426a-3178-42ac-be12-41e0a498a518")
 		)
 		(pin "1"
-			(uuid "b92d2f0c-953f-44a4-bd5d-47ce10ac735c")
+			(uuid "23ac256d-2c6a-4303-b4b3-bdd4cb81e988")
 		)
 		(pin "2"
-			(uuid "90d9d4bd-4397-4507-961a-04d8c9c4c030")
+			(uuid "cbdf1e63-e74b-4193-8e44-1690b9b90572")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "Q9")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "Q1")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3163f500-02ff-499d-82b8-033054d70692")
-		(property "Reference" "#PWR021"
-			(at 233.68 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1a08162-6c5a-418f-a257-7fc28769283e")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR021")
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6658,21 +6811,33 @@
 			)
 		)
 		(pin "5"
-			(uuid "0f4800a8-1ff4-4b06-9854-dc992cbee4eb")
+			(uuid "55f2e78c-f708-4f9d-aa3a-7e17aea0334e")
 		)
 		(pin "7"
-			(uuid "d28184cb-bc62-40d1-ac71-0903177a898c")
+			(uuid "6db86977-a466-46e1-93c9-3d88eae95a52")
 		)
 		(pin "3"
-			(uuid "be1ec2c4-23dd-4499-9a60-d6e3608033ff")
+			(uuid "1da20e07-5a9c-4ef1-9c95-beab6c9588a2")
 		)
 		(pin "1"
-			(uuid "5cf59e09-cd81-4d63-ba2f-8ddecfe4385c")
+			(uuid "4e6aaf96-b9c4-4181-a2e2-4de71864324d")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "K14")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "K10")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "K2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -6746,15 +6911,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed642757-ff5b-4dd5-a917-dce7b36f5d65")
+			(uuid "07823163-d0cb-4224-8d82-654f33cf2d71")
 		)
 		(pin "2"
-			(uuid "96f6c15a-43c8-4d86-848d-4fca49d5fe44")
+			(uuid "a688badd-da96-4a91-acfb-4a608088d788")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R47")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R15")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6826,21 +7003,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "8dee1f50-1730-44f3-993c-83cb7d5aa6ce")
+			(uuid "c58a0337-9139-4893-a7b1-1dbfe82f6352")
 		)
 		(pin "1"
-			(uuid "5c58d457-3820-4dce-927f-bfb206897f90")
+			(uuid "84e50d1a-6099-4f97-9de9-2baff6a2dc76")
 		)
 		(pin "2"
-			(uuid "e5d45b01-b04c-4bf1-a60b-4ffb3889df02")
+			(uuid "ce5f69fc-dac7-44d9-8164-b6cdf4a78f85")
 		)
 		(pin "4"
-			(uuid "e263579f-3bcc-428b-99e2-62a341e653a8")
+			(uuid "afa31ffb-3db3-44be-9090-da17541ba0f8")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "T8")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "T6")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "T2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -6958,18 +7147,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "e115e566-89b4-4021-a5b1-1c75cb9fcaf8")
+			(uuid "5df00da1-b71b-483a-b8fd-201123e31281")
 		)
 		(pin "1"
-			(uuid "7ad56e8b-ddeb-4326-b13f-782980a3e2c2")
+			(uuid "05b077d9-8d8d-4bfa-926f-f65e6834da82")
 		)
 		(pin "2"
-			(uuid "d96ea0fd-5b9c-4052-a1a3-63544e441cc3")
+			(uuid "54df0d10-c1cb-42a2-b6ba-5816068ac9d3")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "Q11")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -7043,15 +7244,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "02517837-ebb9-41b6-97b0-ce91030bf30f")
+			(uuid "8c0d9f1a-bf91-41aa-9a16-fe7c3efdf76a")
 		)
 		(pin "2"
-			(uuid "e9d2253f-8291-4630-9bcd-a53a2f509da6")
+			(uuid "5e668aca-1aba-4d39-b074-ebdbc3660683")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R43")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7123,15 +7336,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "c010acf5-88fe-401e-89ec-660084a02eb8")
+			(uuid "45a74da8-5620-4c2e-bc4e-9d33eb14d65e")
 		)
 		(pin "1"
-			(uuid "3cf4df5c-1967-4c5a-91c5-039e3bc4dad1")
+			(uuid "82ebfa3a-dbd6-4984-8dbc-e6fa6b7d8834")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "C14")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "C2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7227,15 +7452,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "07be4b70-e4ac-4ce9-9a28-89c11fa2d880")
+			(uuid "ce352e45-9eea-4bc8-8ead-05976e5d7aa9")
 		)
 		(pin "1"
-			(uuid "80c072f0-d5de-486b-81b3-a0de791a9f78")
+			(uuid "97533e0e-5440-42b2-851a-d3b3032a7900")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D17")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D1")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7307,15 +7544,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "c82b1c7c-1567-44da-8a31-af4062d814a0")
+			(uuid "25e3040f-2218-42cc-bb78-efae0337c95e")
 		)
 		(pin "2"
-			(uuid "6cc6c1f6-8917-4da8-8e76-eb536a210909")
+			(uuid "e0cef62f-70d5-4124-8ebf-1f7b2eb66825")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R33")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R1")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7387,12 +7636,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "34079217-7e4f-48b3-ae60-0a046870da2a")
+			(uuid "dd7d4248-dbe2-4ea6-921a-b0957db53389")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR053")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7466,15 +7727,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "193cf731-12f6-4b9b-8dbd-69e8be20dbba")
+			(uuid "eed5a845-1629-467f-9dda-59aff0a1c02c")
 		)
 		(pin "2"
-			(uuid "bc66ab8d-b211-4aae-bb59-b015e32e7065")
+			(uuid "bc3ac39d-cd16-40e1-90ab-2d3f8367078c")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R40")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7547,12 +7820,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "60d697a6-eeb4-4ab1-b83f-492f6b1e9b5f")
+			(uuid "091c0476-84b2-4b03-8e36-29115a22c90e")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR064")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7656,15 +7941,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "00df6fab-bd7b-4eb0-80f6-7abe85c9a0dd")
+			(uuid "29de5997-9e82-4c4b-88ef-24c1780589fb")
 		)
 		(pin "2"
-			(uuid "ce04b0bf-a212-41fe-9bc8-e4dc165819cf")
+			(uuid "37f2e2d7-1335-48af-9ab3-40ef98cb7012")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D23")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D7")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -7738,18 +8035,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "36a45d90-c065-42cc-ac32-e7d80b3ae184")
+			(uuid "96eac694-9d56-44e2-aedc-2e71b8110db0")
 		)
 		(pin "2"
-			(uuid "dbdf6dc4-e0d7-4921-805f-370a31a3e167")
+			(uuid "e556c3d2-4cbf-4291-bdda-935ad8bdf51c")
 		)
 		(pin "1"
-			(uuid "34894f31-5019-48de-8537-a3394f71734c")
+			(uuid "0c5bb7bc-8d52-4916-b9ae-93db4cb4d190")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "JP7")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "JP5")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "JP1")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -7821,12 +8130,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2c637b1-98b1-457c-bba5-15c96d9fcd5f")
+			(uuid "27457e62-2307-4fc8-aab7-02cd07b22e2a")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR057")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7933,15 +8254,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cc9e61c-f74b-4769-99e8-be080d23e65d")
+			(uuid "73e0722f-aa02-4882-82dc-86f82dd69363")
 		)
 		(pin "2"
-			(uuid "ba698cea-face-4160-8246-f0d41d04b89d")
+			(uuid "037a94f0-3750-423c-b94a-cf240d64e006")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D22")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D6")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8037,15 +8370,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "4826ab7a-88ef-4be5-9382-810dabf006ef")
+			(uuid "25911acb-2b3a-4241-9f40-068e397bfaa4")
 		)
 		(pin "1"
-			(uuid "08445c31-a9cb-4a52-99c1-319991101033")
+			(uuid "0084187d-58f2-4927-bf91-ddfcf9ec6ff2")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D18")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -8149,15 +8494,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "24762784-dd00-4c16-8a31-da4b3c69cf43")
+			(uuid "bb406368-6c95-48b2-af19-a3eda8080e1b")
 		)
 		(pin "2"
-			(uuid "004ae626-9fdf-47bf-9739-e6e6938eeb28")
+			(uuid "90226ebb-b567-4a93-845f-b6e7b3d7e5de")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D24")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D8")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -8275,18 +8632,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "7bfc70a7-02ec-429d-a6e9-23d6e7d85fd5")
+			(uuid "dad93b35-6a41-44dd-bad0-25d050573a4b")
 		)
 		(pin "1"
-			(uuid "252aa46b-bd16-4252-be74-66e8c7737592")
+			(uuid "7571d30d-dcd7-4c70-baf1-811c7ad6f09b")
 		)
 		(pin "2"
-			(uuid "a4f48208-b21a-4d8c-bc27-3479d16aadc0")
+			(uuid "9abf60b1-c687-40d4-a346-896f9cd3d4d1")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "Q14")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "Q10")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "Q2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -8358,12 +8727,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fa96d7a-eef0-4ce0-b692-b147eab8bd65")
+			(uuid "7d7ee988-b23a-4a64-988e-8aa61640048b")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR048")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 233.68 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c37750-8d9e-46cb-a2ef-1a561faf14c3")
+		(property "Reference" "#PWR022"
+			(at 233.68 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 233.68 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 233.68 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb005226-6f82-4679-a5a9-b26d3c83be4f")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8470,15 +8941,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "16ce90f4-bf49-42bb-b73d-73faea9405ec")
+			(uuid "2ba73465-e952-44c2-945a-b0abc137e018")
 		)
 		(pin "2"
-			(uuid "67436540-1681-4272-b913-4fd5aa08979b")
+			(uuid "5095caf3-e2c7-4d53-b637-7c2a4e84411f")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D21")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D5")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8552,15 +9035,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "13cf18f3-aa63-4124-ab86-b4aab08526a2")
+			(uuid "7a6dff0a-b986-4392-ac6c-1d613b672dba")
 		)
 		(pin "2"
-			(uuid "29f2a020-4585-479d-8b5a-51369850c566")
+			(uuid "21ad5bf8-d8c2-4e89-abd4-70d4448a54ca")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R46")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R14")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8632,12 +9127,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a54fa5e-9fe1-43c4-a1cb-25cb29b0660c")
+			(uuid "6a592c4c-2058-46b6-9084-00a2aa6ff451")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR055")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8709,12 +9216,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "13151d87-a59b-4cad-8e4b-45cb08cb76d2")
+			(uuid "9d5e92c6-6746-494a-962f-c406f23dacd4")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR051")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8788,15 +9307,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6d22b42-8770-47d7-9b41-cae81e534d4c")
+			(uuid "f2add564-89b8-4e7d-8639-b2ab9d28cf61")
 		)
 		(pin "2"
-			(uuid "d430fd63-f628-4a0b-be1e-ebee0b711d6b")
+			(uuid "f484160a-57f4-431a-a821-9fe01edb09c9")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R39")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8870,15 +9401,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c7d6189-2440-4ca4-ba71-5cf45f752d52")
+			(uuid "70513e7b-6ab7-4bef-b925-6656846c3227")
 		)
 		(pin "2"
-			(uuid "47b714c6-f160-4dda-acc3-967a333dd2b3")
+			(uuid "a8f3de99-3162-43a4-a68f-78c389fae497")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R35")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8951,12 +9494,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "10ce8b17-b62c-4a78-9f92-ec093ab842e5")
+			(uuid "b9976404-ad79-4f7c-9ebb-3308c67d3597")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR063")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9028,12 +9583,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e6ccaaa-054c-46aa-96d8-409f5a406912")
+			(uuid "558a056e-1e3a-4bd2-b1b4-859fbea6541f")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR059")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 185.42 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f7ccb96-8152-4082-8fdc-46cc9102dc73")
+		(property "Reference" "#PWR036"
+			(at 185.42 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 185.42 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0e7f020-a1aa-4316-8cb2-ed429a54c31c")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9105,12 +9762,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "735604cf-2154-4ca0-ac2c-2479b68380ed")
+			(uuid "4471fc2b-2539-4a07-8508-a8c144be1d0e")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR046")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9182,10 +9851,10 @@
 			)
 		)
 		(pin "8"
-			(uuid "c6e8a030-88d8-4236-8891-6518b0584745")
+			(uuid "c6e8a030-88d8-4236-8891-6518b0584746")
 		)
 		(pin "4"
-			(uuid "fcab98c5-ab7a-467a-ac67-fa6f31381282")
+			(uuid "fcab98c5-ab7a-467a-ac67-fa6f31381283")
 		)
 		(pin "5"
 			(uuid "a5e18dc3-5272-4568-ba23-67882188d512")
@@ -9194,21 +9863,33 @@
 			(uuid "5af4130b-7e14-43a7-9f63-7f56b34f1e33")
 		)
 		(pin "3"
-			(uuid "9e2af52a-8d47-4fd3-96d2-bc44373ae4bc")
+			(uuid "02550f93-7e62-48db-83e6-42c7534b9d96")
 		)
 		(pin "2"
-			(uuid "a6af9796-b72a-4f02-ba0c-076ae33af309")
+			(uuid "44e7a7cd-bb55-4433-917e-2139d8c63c29")
 		)
 		(pin "1"
-			(uuid "b1863c33-1046-4b41-827f-ab53de0b1ec7")
+			(uuid "cd81ae17-90cb-4db2-9952-1c6e6b2d9868")
 		)
 		(pin "6"
 			(uuid "a5764dd2-e5e1-459e-9271-ab6709cff1b5")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U16")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "U5")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -9281,12 +9962,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2224f43-cb76-4fad-9dd2-74fe7c855547")
+			(uuid "9c03aa5f-54c2-400d-8523-3655e8bcdb00")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR061")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9360,15 +10053,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ee31766-57a2-4efc-9bcc-4f6d0f41b0fc")
+			(uuid "9c48f1ef-e2a3-4245-bc7a-52ff9dbca166")
 		)
 		(pin "2"
-			(uuid "6f233266-f176-4025-b75a-ccddde02c246")
+			(uuid "02c5f577-575a-4289-90dd-8ceff29d06c8")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R42")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9442,15 +10147,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "8779e0d2-88d8-4afc-bf5b-e6ef73547b28")
+			(uuid "3481f852-0531-4e7e-9416-b6c4b841264d")
 		)
 		(pin "1"
-			(uuid "0ae43e61-6b9a-4196-9e6d-da1d18d69d58")
+			(uuid "c6f4a5cc-31c0-4d15-94aa-ba61fed3b299")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "C17")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9522,15 +10239,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "d8022381-c4cd-4183-8d96-376381303d41")
+			(uuid "7be7c3ee-db94-4fcd-bb5d-6b4d28fb2350")
 		)
 		(pin "1"
-			(uuid "c6cae30e-28d7-41af-86e7-3ac301500c0e")
+			(uuid "1a5c6829-3539-4a10-b147-81aedc45b1c3")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "C15")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "C3")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9601,21 +10330,33 @@
 			)
 		)
 		(pin "4"
-			(uuid "38679304-7d85-4bbc-bc10-4058e3f4a91e")
+			(uuid "de87b109-6c47-4fdb-b900-6fb9bca48754")
 		)
 		(pin "1"
-			(uuid "82504b71-9b28-4cd7-b6f1-fb21e64e3a07")
+			(uuid "c51a95cb-f4a1-4296-935c-5c3d6579b83a")
 		)
 		(pin "3"
-			(uuid "75c4a1be-9d8d-4bfa-98d9-4717d4746f66")
+			(uuid "52ff978f-3e7e-4ae7-a354-7e53dd51bab2")
 		)
 		(pin "2"
-			(uuid "9aab7075-210a-4a04-8bb8-fe407e3ea230")
+			(uuid "c5e579c9-43a5-4c96-bc20-b4e217ab7e0e")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U23")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U18")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "U7")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -9687,12 +10428,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6adee8e-db87-4b41-a006-23f14331302b")
+			(uuid "19a699f2-b6f3-4db1-bb2d-643a54ce57eb")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR049")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9765,33 +10518,45 @@
 			)
 		)
 		(pin "8"
-			(uuid "c6e8a030-88d8-4236-8891-6518b0584745")
+			(uuid "ba15f058-df98-461f-97c6-f5e66adb3d02")
 		)
 		(pin "4"
-			(uuid "fcab98c5-ab7a-467a-ac67-fa6f31381282")
+			(uuid "919b0160-a781-4e06-8a6f-510d4cceba58")
 		)
 		(pin "5"
-			(uuid "a5e18dc3-5272-4568-ba23-67882188d512")
+			(uuid "a5e18dc3-5272-4568-ba23-67882188d513")
 		)
 		(pin "7"
-			(uuid "5af4130b-7e14-43a7-9f63-7f56b34f1e33")
+			(uuid "5af4130b-7e14-43a7-9f63-7f56b34f1e34")
 		)
 		(pin "3"
-			(uuid "9e2af52a-8d47-4fd3-96d2-bc44373ae4bc")
+			(uuid "9e2af52a-8d47-4fd3-96d2-bc44373ae4bd")
 		)
 		(pin "2"
-			(uuid "a6af9796-b72a-4f02-ba0c-076ae33af309")
+			(uuid "a6af9796-b72a-4f02-ba0c-076ae33af30a")
 		)
 		(pin "1"
-			(uuid "b1863c33-1046-4b41-827f-ab53de0b1ec7")
+			(uuid "b1863c33-1046-4b41-827f-ab53de0b1ec8")
 		)
 		(pin "6"
-			(uuid "a5764dd2-e5e1-459e-9271-ab6709cff1b5")
+			(uuid "a5764dd2-e5e1-459e-9271-ab6709cff1b6")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U21")
+					(unit 3)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U16")
+					(unit 3)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "U5")
+					(unit 3)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U11")
 					(unit 3)
 				)
 			)
@@ -9865,92 +10630,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf03da48-faf8-42c2-8267-d0814e4fa356")
+			(uuid "9f1b89ed-84ca-4ec7-adc0-3aca6ef9ee6b")
 		)
 		(pin "2"
-			(uuid "ecfbfe35-d157-4f3a-9ca0-c522436f6940")
+			(uuid "ea40594a-7dea-44a0-9920-58488f1bf011")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R41")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R9")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7481938-2233-4d79-ab85-de022dc9fd83")
-		(property "Reference" "#PWR014"
-			(at 185.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8933dc7-e3a0-429d-b4b6-1f41deacae95")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR014")
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10024,15 +10724,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "79f7a441-263d-4e18-b982-c7dc8b9f7d38")
+			(uuid "6efe27e3-2406-403d-929e-3f2b12b25216")
 		)
 		(pin "2"
-			(uuid "d9f7e494-38e4-4735-8d8d-bca520cef639")
+			(uuid "56935b50-b9bc-4869-bd13-fd77d88b8760")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R44")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10106,15 +10818,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8e66519-f9c8-4185-85fa-e52f082d629f")
+			(uuid "2057037d-a8ec-4170-bebb-d4c8a6bfcdaf")
 		)
 		(pin "2"
-			(uuid "9d1088e5-9e02-4c09-b7cf-870c6ef7d7b0")
+			(uuid "78347e92-57b0-4ca7-a9b0-1a23dc42b227")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R45")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -10186,21 +10910,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "e3f95178-1a9d-4615-9c4d-8861af47e33e")
+			(uuid "faedd356-1631-4b76-8cd2-222ae0d95ccc")
 		)
 		(pin "1"
-			(uuid "41e45e5d-7b45-43a5-93c8-6a9e5732c9e5")
+			(uuid "e32de268-bc59-495e-afa9-3832febfc361")
 		)
 		(pin "2"
-			(uuid "3d2719ab-b401-48c7-ace2-0aa3d5874e85")
+			(uuid "0d358e5f-0cb5-4a9d-bc20-324372f4a319")
 		)
 		(pin "4"
-			(uuid "753e0953-02c0-4c2c-b42e-1a1e2d184a48")
+			(uuid "7acbedbc-1d8c-4221-b6bc-55af363de28a")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "T7")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "T5")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "T1")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -10296,15 +11032,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2acbb4d-41f2-4fc2-8766-fec8de0d9938")
+			(uuid "24c3cf94-c02e-4013-9ed5-48d409c34360")
 		)
 		(pin "1"
-			(uuid "0684b7cc-2ee9-40ea-86d0-a785bcb39421")
+			(uuid "5fea8dd0-c997-453a-a9df-c519d1ce37d2")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D20")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "D4")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -10376,15 +11124,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec12d168-aeb1-4aea-843e-f339472512a5")
+			(uuid "b6403ca4-67a7-4a26-9ae3-e47bfdad919e")
 		)
 		(pin "1"
-			(uuid "0fab38e8-2890-4ada-929a-1d57692cc6ba")
+			(uuid "216628ee-fa7b-4120-8272-4fa7fc6bffdd")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "C16")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10457,12 +11217,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "c751c8f3-f933-4aa3-916f-4eb2f7aa7fb5")
+			(uuid "afa55f84-6ff8-4a7b-89d9-9184b39eb85d")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR062")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10533,21 +11305,33 @@
 			)
 		)
 		(pin "4"
-			(uuid "f9e3ce6e-1d43-4b21-8e37-ed03c771c63d")
+			(uuid "7f456c08-a780-47e1-b16d-0529e82e8d1f")
 		)
 		(pin "1"
-			(uuid "fa06fb6a-a1a6-473a-8fdb-31f97a21000a")
+			(uuid "1681012d-c183-4586-a649-d93958ff1f71")
 		)
 		(pin "3"
-			(uuid "0ea9f2ab-cfe1-4704-ac20-ccbc03c2be99")
+			(uuid "5a54e4a5-0563-4708-8b7f-091e12fcd3e4")
 		)
 		(pin "2"
-			(uuid "23f918d2-62d8-48d2-af2b-19cba3e7c3a1")
+			(uuid "893323bf-c3ef-44e5-89ba-b21c8850abbc")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U15")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "U4")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -10619,12 +11403,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3953fa2-d1c8-4c68-b4ca-1e924508ae29")
+			(uuid "f6d2f343-cc05-4b03-9384-a0cf286a7571")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR045")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10698,15 +11494,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "177d2969-87f1-49ea-bc9b-8e6d2869a425")
+			(uuid "7b073c31-5b41-4037-9102-91590669fac7")
 		)
 		(pin "2"
-			(uuid "c05664e9-c887-4e6a-9987-f7b31cc4169d")
+			(uuid "8082e596-45cd-4b09-9e95-5e2e3f3c62bd")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R36")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R4")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10780,15 +11588,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "125292e7-e8fa-44c4-9228-79c2d9db3390")
+			(uuid "2538bf0b-d581-4f87-afcd-aba09143b864")
 		)
 		(pin "2"
-			(uuid "e9cd3f9b-b7ba-4daf-a7f0-787eecde9fe2")
+			(uuid "3a8a1043-a3c6-4ccf-994d-946bd60d39af")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R37")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10862,15 +11682,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "7367124c-2613-4525-988c-510c7a363dcb")
+			(uuid "4ddd743e-6f44-4ec2-9a8f-9cd8457f7fa8")
 		)
 		(pin "2"
-			(uuid "04354fef-69b7-4078-92b4-d52c77e9232e")
+			(uuid "0447833c-23be-4964-ab3f-7b2306c04ded")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "R48")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "R16")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -10954,24 +11786,36 @@
 			)
 		)
 		(pin "4"
-			(uuid "126a32ae-3d59-47ea-86c5-5e506754f7d4")
+			(uuid "ffb17d51-6c14-4d35-a6c0-7930aae681b4")
 		)
 		(pin "3"
-			(uuid "5ea36fd5-41ec-4562-bcd9-976ed58f0d86")
+			(uuid "682b4607-0063-4b22-98aa-dddf02deccac")
 		)
 		(pin "5"
-			(uuid "b092513e-f1f4-4d4e-a4f8-b6f2953892b3")
+			(uuid "8b325242-f8ae-4568-a559-1bacb6883019")
 		)
 		(pin "2"
-			(uuid "dc9fb4ac-d30e-4cbd-a745-0790d3a225e5")
+			(uuid "c7c1a3b0-c051-4d19-b6f4-cf98ef015859")
 		)
 		(pin "1"
-			(uuid "0d9060df-ed52-4ae8-8677-b5c610c12236")
+			(uuid "e78d7efb-fe1e-436e-b90d-3dffcd1a3318")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "K16")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "K12")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "K4")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "K8")
 					(unit 1)
 				)
 			)
@@ -11042,21 +11886,33 @@
 			)
 		)
 		(pin "4"
-			(uuid "16923424-3f84-448f-950a-de03bbdcfaf4")
+			(uuid "2b8c3860-b47d-4107-b7d3-d21db25e9693")
 		)
 		(pin "1"
-			(uuid "063a80d5-7590-4e90-8fa5-29b4b49db24f")
+			(uuid "a894e60e-44b5-4b43-a2dc-54009a12c6c0")
 		)
 		(pin "3"
-			(uuid "458bef40-8c98-419e-9561-45243c164e41")
+			(uuid "6c000067-1e68-4cb4-a875-d35cd09b83fa")
 		)
 		(pin "2"
-			(uuid "710eef69-8f1d-4800-a5e0-6268a69b99c9")
+			(uuid "0f4bf23b-0cb9-468e-8714-5c8286059be8")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U17")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -11174,18 +12030,120 @@
 			)
 		)
 		(pin "3"
-			(uuid "30d27f28-d061-4d31-8120-692fea7269e2")
+			(uuid "4590d221-46b9-4e75-8938-29d783680466")
 		)
 		(pin "1"
-			(uuid "3ff2a93f-913d-4bf0-b951-85e786f1ba73")
+			(uuid "454f7764-087e-4660-843d-887d7ba01264")
 		)
 		(pin "2"
-			(uuid "c620c44a-4124-4420-aadc-ca24f4514d36")
+			(uuid "4a677521-f2c4-4191-bf9c-4252a0cb479e")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "Q12")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "Q4")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 185.42 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0489bef-6082-49f9-afbe-17e075798275")
+		(property "Reference" "#PWR016"
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 185.42 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 185.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08f290fa-0137-4348-b2de-23aac309fa53")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11259,15 +12217,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "9db21523-bc3a-4822-8d5d-2c1ad3ed7322")
+			(uuid "31db3e10-fbf0-4345-907e-8407e48efe2c")
 		)
 		(pin "1"
-			(uuid "e2ab2283-44c0-4d95-8d4c-ebb735a37286")
+			(uuid "a9ea60be-585d-4ad1-91c1-040942c65939")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "C18")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11338,21 +12308,33 @@
 			)
 		)
 		(pin "4"
-			(uuid "36bf7c1d-74d2-4b8b-a7c2-b0ef4b7af945")
+			(uuid "892ac805-f345-45e4-aacc-1556e236589f")
 		)
 		(pin "1"
-			(uuid "e8a5db40-0bad-45a6-af35-e087fe29af78")
+			(uuid "2bb377e1-80fd-4673-af4b-dfe800974cb3")
 		)
 		(pin "3"
-			(uuid "df4c0537-9155-4d00-88e7-5341e82ecd83")
+			(uuid "da2b58ca-d621-4ab7-b766-1152355415e4")
 		)
 		(pin "2"
-			(uuid "03f7f72d-69a4-4917-82fe-805e975f550b")
+			(uuid "899f9b5c-60a1-4772-854e-0079058c50e6")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U14")
+					(unit 1)
+				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
 					(reference "U3")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U9")
 					(unit 1)
 				)
 			)
