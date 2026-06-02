@@ -416,13 +416,17 @@
         "uuid": "eb421281-26a1-483f-b39a-0425ec8eb8df"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "T1,U1-5,Q1-2,K1-2,R1-8,JP1,C1,D1-4,#PWR1-12",
     "variants": []
   },
   "sheets": [
     [
       "eb421281-26a1-483f-b39a-0425ec8eb8df",
       "Root"
+    ],
+    [
+      "d196d4b4-6022-462f-b84d-8329b2cd3e57",
+      "LineCtrl1"
     ]
   ],
   "text_variables": {},
