@@ -500,6 +500,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -752,8 +875,80 @@
 		)
 		(uuid "cb78277d-f9a7-4fc6-b748-bae83d04d1c0")
 	)
+	(junction
+		(at 59.69 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b4f8ffb-b770-4264-a9fc-b74915c9ff0d")
+	)
+	(junction
+		(at 67.31 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28024659-c704-4fc6-9627-42a7d2b6c582")
+	)
+	(junction
+		(at 72.39 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cc74979-44d1-4ca4-897d-eb8f71c4d1ab")
+	)
+	(junction
+		(at 69.85 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60b97304-e19b-4d79-a9e5-6c35c1ac8eab")
+	)
+	(junction
+		(at 134.62 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76bf4c32-28e2-4b2c-8cec-17b7855c749f")
+	)
+	(junction
+		(at 130.81 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f1fc8bb-3c7a-4537-bbf0-8b9584e5653f")
+	)
+	(junction
+		(at 74.93 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe62bf3-99ac-4b37-9662-752bced34a2f")
+	)
+	(junction
+		(at 138.43 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92f847ec-486e-4bcc-bb0c-e83a90b44ab6")
+	)
+	(junction
+		(at 62.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9327ab3f-1f46-48d0-bbe8-94abf47fc2a8")
+	)
+	(junction
+		(at 77.47 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d617e6dc-f7be-4235-9a96-3cda00c4c627")
+	)
+	(junction
+		(at 127 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9f9e58d-af23-4008-841c-05960c9a0387")
+	)
+	(junction
+		(at 64.77 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7779647-c298-4373-b13a-176a4801cafd")
+	)
 	(bus_entry
-		(at 80.01 113.03)
+		(at 44.45 113.03)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -762,7 +957,7 @@
 		(uuid "01b3630a-50c0-4e80-964a-988b1bd0b60c")
 	)
 	(bus_entry
-		(at 80.01 118.11)
+		(at 44.45 118.11)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -771,7 +966,7 @@
 		(uuid "2c427422-2d4d-4cf4-b949-b9bc76415556")
 	)
 	(bus_entry
-		(at 80.01 123.19)
+		(at 44.45 123.19)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -780,7 +975,7 @@
 		(uuid "335a94e1-c1c4-4c82-8435-bd9f81cbbaa0")
 	)
 	(bus_entry
-		(at 80.01 120.65)
+		(at 44.45 120.65)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -789,7 +984,7 @@
 		(uuid "446fb646-8787-47b7-9b8b-a0d914d7b65e")
 	)
 	(bus_entry
-		(at 80.01 110.49)
+		(at 44.45 110.49)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -798,7 +993,7 @@
 		(uuid "465c4a32-f07b-4c70-90e4-188b934fda08")
 	)
 	(bus_entry
-		(at 80.01 107.95)
+		(at 44.45 107.95)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -807,7 +1002,7 @@
 		(uuid "807b08cb-deb8-414e-affb-551aa909d864")
 	)
 	(bus_entry
-		(at 80.01 125.73)
+		(at 44.45 125.73)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -816,7 +1011,7 @@
 		(uuid "afd35b54-d312-4cb0-b845-e0878c95811a")
 	)
 	(bus_entry
-		(at 80.01 115.57)
+		(at 44.45 115.57)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -826,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 115.57) (xy 125.73 115.57)
+			(xy 121.92 115.57) (xy 127 115.57)
 		)
 		(stroke
 			(width 0)
@@ -836,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 115.57) (xy 91.44 115.57)
+			(xy 46.99 115.57) (xy 64.77 115.57)
 		)
 		(stroke
 			(width 0)
@@ -846,13 +1041,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 123.19) (xy 91.44 123.19)
+			(xy 46.99 123.19) (xy 72.39 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0bdde7a3-61ef-4b43-88d9-99007c5c4acf")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0dc773-5b17-41b7-98e4-37d3a210307c")
 	)
 	(wire
 		(pts
@@ -866,13 +1071,33 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 107.95) (xy 80.01 107.95)
+			(xy 39.37 107.95) (xy 44.45 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a85040f-8109-4648-acfe-8c69c3568179")
+	)
+	(wire
+		(pts
+			(xy 74.93 125.73) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adebc77-d08f-41fa-a96a-9776665b41d2")
+	)
+	(wire
+		(pts
+			(xy 64.77 115.57) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d49e1b-701b-434c-9254-21d545dfabf5")
 	)
 	(wire
 		(pts
@@ -886,7 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 110.49) (xy 91.44 110.49)
+			(xy 46.99 110.49) (xy 59.69 110.49)
 		)
 		(stroke
 			(width 0)
@@ -894,9 +1119,19 @@
 		)
 		(uuid "58c89d2d-b41e-461a-8be9-6a08944806d6")
 	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 91.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5900708d-5bb1-4b40-b088-bb255f9fbf1b")
+	)
 	(bus
 		(pts
-			(xy 80.01 107.95) (xy 80.01 125.73)
+			(xy 44.45 107.95) (xy 44.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -906,7 +1141,27 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 118.11) (xy 91.44 118.11)
+			(xy 77.47 128.27) (xy 91.44 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ffecfc-ded1-45cf-87c3-cf7e3738385a")
+	)
+	(wire
+		(pts
+			(xy 59.69 110.49) (xy 91.44 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73298cfd-4c81-4e99-9986-0d744d3a07ca")
+	)
+	(wire
+		(pts
+			(xy 46.99 118.11) (xy 67.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +1171,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 118.11) (xy 125.73 118.11)
+			(xy 67.31 118.11) (xy 91.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b801dc7-5b04-4abc-a148-7f05d341ac3f")
+	)
+	(wire
+		(pts
+			(xy 121.92 118.11) (xy 130.81 118.11)
 		)
 		(stroke
 			(width 0)
@@ -936,6 +1201,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 120.65) (xy 156.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4d4c71-877f-4093-b9cb-f58d39f49658")
+	)
+	(wire
+		(pts
 			(xy 104.14 133.35) (xy 104.14 135.89)
 		)
 		(stroke
@@ -946,7 +1221,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 128.27) (xy 91.44 128.27)
+			(xy 62.23 113.03) (xy 91.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e54595-ed05-40de-a96f-c5e98fa37db4")
+	)
+	(wire
+		(pts
+			(xy 46.99 128.27) (xy 77.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 120.65) (xy 125.73 120.65)
+			(xy 121.92 120.65) (xy 134.62 120.65)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +1251,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 125.73) (xy 91.44 125.73)
+			(xy 138.43 123.19) (xy 156.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6b2efa-5856-4cd8-8fa0-6ee5484c53cb")
+	)
+	(wire
+		(pts
+			(xy 46.99 125.73) (xy 74.93 125.73)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 123.19) (xy 125.73 123.19)
+			(xy 121.92 123.19) (xy 138.43 123.19)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +1281,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 113.03) (xy 91.44 113.03)
+			(xy 72.39 123.19) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa20fa55-1674-4580-927b-8f29fe59092d")
+	)
+	(wire
+		(pts
+			(xy 46.99 113.03) (xy 62.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +1301,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 120.65) (xy 91.44 120.65)
+			(xy 46.99 120.65) (xy 69.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1004,8 +1309,18 @@
 		)
 		(uuid "fccc79ed-20ee-40e0-8d4b-a30e3777d848")
 	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed1d72d-cfe1-439b-bc49-aa1d012adcfb")
+	)
 	(label "adcCH2"
-		(at 83.82 113.03 0)
+		(at 48.26 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1015,7 +1330,7 @@
 		(uuid "4fa0581b-0ca7-49b4-b451-59f6b4d00ba4")
 	)
 	(label "adcCH3"
-		(at 83.82 115.57 0)
+		(at 48.26 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1025,7 +1340,7 @@
 		(uuid "5d471c8c-8706-48a4-9037-cbca7f879f2d")
 	)
 	(label "adcCH5"
-		(at 83.82 120.65 0)
+		(at 48.26 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1035,7 +1350,7 @@
 		(uuid "6ecf9b7d-942e-4967-a05f-c5bbc5ddf3e6")
 	)
 	(label "adcCH4"
-		(at 83.82 118.11 0)
+		(at 48.26 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1045,7 +1360,7 @@
 		(uuid "75754283-4a7e-4ec8-a53b-fe2507c43afa")
 	)
 	(label "adcCH1"
-		(at 83.82 110.49 0)
+		(at 48.26 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1055,7 +1370,7 @@
 		(uuid "803c576f-a955-49b8-9149-b717cca616b1")
 	)
 	(label "adcCH7"
-		(at 83.82 125.73 0)
+		(at 48.26 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1065,7 +1380,7 @@
 		(uuid "85a09b73-2ea3-49f2-ab54-de688355382a")
 	)
 	(label "adcCH6"
-		(at 83.82 123.19 0)
+		(at 48.26 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1075,7 +1390,7 @@
 		(uuid "bd103235-5c7e-4b4e-ab4c-fbdb6ef50ff7")
 	)
 	(label "adcCH8"
-		(at 83.82 128.27 0)
+		(at 48.26 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1086,7 +1401,7 @@
 	)
 	(hierarchical_label "adcCS"
 		(shape input)
-		(at 125.73 123.19 0)
+		(at 156.21 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1108,7 +1423,7 @@
 	)
 	(hierarchical_label "adcCH[1..8]"
 		(shape input)
-		(at 74.93 107.95 180)
+		(at 39.37 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1119,7 +1434,7 @@
 	)
 	(hierarchical_label "adcOut"
 		(shape output)
-		(at 125.73 118.11 0)
+		(at 156.21 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1141,7 +1456,7 @@
 	)
 	(hierarchical_label "adcClk"
 		(shape input)
-		(at 125.73 115.57 0)
+		(at 156.21 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1152,7 +1467,7 @@
 	)
 	(hierarchical_label "adcIn"
 		(shape input)
-		(at 125.73 120.65 0)
+		(at 156.21 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1160,6 +1475,322 @@
 			(justify left)
 		)
 		(uuid "fe271b85-c145-4bd2-a86d-a227c893959a")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1876c2ae-19f0-4eee-a5dc-b9f3f504977e")
+		(property "Reference" "TP94"
+			(at 129.54 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 133.35 116.0779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 135.89 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b734fc8e-0a1a-447b-88f0-bb126abea611")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c16b1b1-2233-4dc1-bb75-73b99fc36aaf")
+		(property "Reference" "TP85"
+			(at 58.42 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 108.4579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 64.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af4df287-a541-48de-962b-7f10da1b995d")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26b6fc79-a301-4d2f-9fb2-19764bebf21d")
+		(property "Reference" "TP91"
+			(at 73.66 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.47 123.6979 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddbb8439-5dbf-40b4-9e2e-975da395ab10")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3edfab57-1fae-484c-be3b-deb80071e366")
+		(property "Reference" "TP86"
+			(at 60.96 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.77 110.9979 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f9b2a7b-04fb-4488-8893-eca497743619")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP86")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1272,7 +1903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 109.22 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1363,6 +1994,401 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d2ea0f7-344a-428a-a748-ea9576f13087")
+		(property "Reference" "TP89"
+			(at 68.58 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.39 118.6179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 74.93 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa01f34e-cddc-47d6-b871-7f722c917aa6")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 64.77 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d3c287b-dc8d-4411-bfe9-337cec243281")
+		(property "Reference" "TP87"
+			(at 63.5 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 113.5379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 69.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ebecb30-9788-47f0-bfb2-11420804436b")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55e35e4b-432b-474d-9e9e-bf046d5ab393")
+		(property "Reference" "TP90"
+			(at 71.12 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 74.93 121.1579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 77.47 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63c93492-9bfc-439f-827e-7d946b2d66c0")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a78d1979-0c5f-4653-9510-4e32d5fd589c")
+		(property "Reference" "TP96"
+			(at 137.16 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 140.97 121.1579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 143.51 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9923a5b-7b08-49c7-ac30-0be2f4a2e7c8")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 134.62 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bde76d4e-ca09-404c-acef-fba2ed589a51")
+		(property "Reference" "TP95"
+			(at 133.35 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 137.16 118.6179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 139.7 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 134.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdc7a339-8d40-493b-ad02-207ed8acd6e2")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 111.76 135.89 0)
 		(unit 1)
@@ -1435,6 +2461,243 @@
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfeb9c97-6b9b-4e7a-b1a3-5f80d32c4885")
+		(property "Reference" "TP92"
+			(at 76.2 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 126.2379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 82.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb83ae01-447d-4d70-852f-faca86947e01")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0f8ed05-fa82-4040-87d8-cbffe575663e")
+		(property "Reference" "TP88"
+			(at 66.04 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.85 116.0779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 72.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9782a00-6a98-46b2-a37b-19a19bdd1eb5")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f70a1006-b33d-411a-adc0-04a7de5bb651")
+		(property "Reference" "TP93"
+			(at 125.73 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.54 113.5379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 132.08 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f07b4405-14f5-4fee-a483-a855bcc5ac2a")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
+					(reference "TP93")
 					(unit 1)
 				)
 			)

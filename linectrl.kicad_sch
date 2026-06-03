@@ -544,6 +544,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2927,6 +3050,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3247,7 +3509,7 @@
 	)
 	(text "Protect against ring spikes"
 		(exclude_from_sim no)
-		(at 100.33 36.83 0)
+		(at 95.25 49.53 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3347,7 +3609,7 @@
 	)
 	(text "Secondary:\nAudio ~0.1V_{pp}\nRing ~14V_{pp}"
 		(exclude_from_sim no)
-		(at 88.9 50.8 0)
+		(at 82.55 50.8 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3380,6 +3642,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ca10848-477d-4173-b58e-fdaa9ff8222f")
+	)
+	(junction
+		(at 238.76 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202b4b77-79e6-442a-9aaf-61159d7c04b7")
 	)
 	(junction
 		(at 97.79 48.26)
@@ -3418,6 +3686,12 @@
 		(uuid "30ba82dd-a74f-4aa9-8872-69d2078a4e2c")
 	)
 	(junction
+		(at 95.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b9c751-0232-4f66-916a-dc722c124622")
+	)
+	(junction
 		(at 69.85 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3430,10 +3704,28 @@
 		(uuid "46e2b0da-072c-4df0-bde5-c7b35b36b55b")
 	)
 	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c57f977-d4ab-4221-8a66-572e885085b0")
+	)
+	(junction
+		(at 48.26 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "501384ff-7266-4353-b836-ff748c498291")
+	)
+	(junction
 		(at 102.87 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51bff530-6688-4471-87ba-26ac94fc5b4f")
+	)
+	(junction
+		(at 43.18 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539c5c88-69c8-41ae-94e7-169abebc84e6")
 	)
 	(junction
 		(at 166.37 101.6)
@@ -3472,6 +3764,12 @@
 		(uuid "7e55c1c1-ca9f-44f1-9029-71e866835e36")
 	)
 	(junction
+		(at 95.25 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f3f3b21-e668-49a3-b4f7-f1bb6b4687c2")
+	)
+	(junction
 		(at 198.12 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3502,6 +3800,12 @@
 		(uuid "9f0c0b92-7c4b-4d0d-aa87-1ca6c79b6afd")
 	)
 	(junction
+		(at 48.26 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41c68e3-b401-4118-ae73-ba6321bbc4dd")
+	)
+	(junction
 		(at 185.42 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3520,6 +3824,18 @@
 		(uuid "aa48d092-04f1-410d-9d55-01f093dee7df")
 	)
 	(junction
+		(at 207.01 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa7860e6-9781-443e-8c8e-d5ff73e9bfc0")
+	)
+	(junction
+		(at 121.92 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac594bf2-e139-4412-95c0-39b1fbe20736")
+	)
+	(junction
 		(at 97.79 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3532,10 +3848,34 @@
 		(uuid "b32b03b8-6ba4-479d-8788-2fa2be3d1e32")
 	)
 	(junction
+		(at 43.18 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd1ee4f-eba7-4f22-b6ff-5ee3afc1c344")
+	)
+	(junction
+		(at 43.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be7a4752-dc45-4fd3-a8ed-2ccaf4b9dd36")
+	)
+	(junction
 		(at 138.43 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c225a360-a193-459f-bbb8-5b100e8b4570")
+	)
+	(junction
+		(at 48.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe47b0a-f323-400d-a3ee-2155f691aee5")
+	)
+	(junction
+		(at 207.01 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8641beb-84af-40b2-b820-b024a54a819f")
 	)
 	(junction
 		(at 233.68 53.34)
@@ -3574,10 +3914,28 @@
 		(uuid "efe0b9d7-2d9a-4f4e-bf91-5d70e7213f9c")
 	)
 	(junction
+		(at 48.26 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f483e28c-82b6-459a-bebe-81e47e03da93")
+	)
+	(junction
+		(at 238.76 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc10a75f-2d80-49fa-b65b-40085945ea2a")
+	)
+	(junction
 		(at 69.85 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fde52c81-3a4f-4351-a99d-50cd31ba7dbe")
+	)
+	(junction
+		(at 43.18 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff470d3d-f8eb-499e-a13d-e3416d264271")
 	)
 	(wire
 		(pts
@@ -3591,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 123.19 101.6)
+			(xy 114.3 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3608,6 +3966,26 @@
 			(type default)
 		)
 		(uuid "008809d8-cc6b-41c3-8646-65a46eb0cbb7")
+	)
+	(wire
+		(pts
+			(xy 43.18 41.91) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dae1c0-40b2-493d-a7e7-2fcb7b09ff99")
+	)
+	(wire
+		(pts
+			(xy 43.18 113.03) (xy 45.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027dfc30-c215-432a-a7c1-b962882ae662")
 	)
 	(wire
 		(pts
@@ -3631,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 110.49) (xy 48.26 134.62)
+			(xy 48.26 110.49) (xy 48.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3661,7 +4039,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 105.41) (xy 45.72 105.41)
+			(xy 41.91 105.41) (xy 43.18 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3741,7 +4119,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 34.29) (xy 243.84 34.29)
+			(xy 231.14 34.29) (xy 238.76 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3821,6 +4199,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f04d27-b664-42b7-8729-bee6bfdb1a82")
+	)
+	(wire
+		(pts
 			(xy 194.31 44.45) (xy 194.31 40.64)
 		)
 		(stroke
@@ -3888,6 +4276,16 @@
 			(type default)
 		)
 		(uuid "28b11111-eca8-40b0-ac68-28bfb8b8c65e")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2945911d-4833-4781-8cbc-d92f6ac5c5bb")
 	)
 	(wire
 		(pts
@@ -4041,6 +4439,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 105.41) (xy 45.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3dddc6-87e5-4e80-8125-6a500bd4db5a")
+	)
+	(wire
+		(pts
 			(xy 114.3 26.67) (xy 114.3 27.94)
 		)
 		(stroke
@@ -4088,6 +4496,16 @@
 			(type default)
 		)
 		(uuid "419f1c9d-f9f7-4c94-b308-eda23de47f87")
+	)
+	(wire
+		(pts
+			(xy 121.92 38.1) (xy 123.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cf0d1c-bc4f-495a-9656-cb13d40ac41d")
 	)
 	(wire
 		(pts
@@ -4171,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 113.03) (xy 45.72 113.03)
+			(xy 41.91 113.03) (xy 43.18 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4278,6 +4696,16 @@
 			(type default)
 		)
 		(uuid "6056147a-89e5-4eef-89c5-4302e1c634c8")
+	)
+	(wire
+		(pts
+			(xy 238.76 34.29) (xy 243.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6088dfa7-abfa-473d-8c28-2bf2e668761f")
 	)
 	(wire
 		(pts
@@ -4411,7 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 46.99) (xy 48.26 71.12)
+			(xy 48.26 46.99) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4471,6 +4899,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 50.8) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82abbe7f-16d1-436d-b037-e296d3ff7e9e")
+	)
+	(wire
+		(pts
 			(xy 114.3 101.6) (xy 114.3 104.14)
 		)
 		(stroke
@@ -4511,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 41.91) (xy 45.72 41.91)
+			(xy 41.91 41.91) (xy 43.18 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4551,7 +4989,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 123.19 38.1)
+			(xy 114.3 38.1) (xy 121.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4691,7 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 49.53) (xy 45.72 49.53)
+			(xy 41.91 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4801,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 71.12) (xy 243.84 46.99)
+			(xy 243.84 46.99) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4888,6 +5326,16 @@
 			(type default)
 		)
 		(uuid "bf45e4ad-7e21-4870-be86-c6ef181f1f76")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa838e6-662c-47c5-a5e0-53f0fd256e8b")
 	)
 	(wire
 		(pts
@@ -5071,6 +5519,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 114.3) (xy 48.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba012f6-0d1e-476d-850d-d47c3b62d48c")
+	)
+	(wire
+		(pts
 			(xy 185.42 29.21) (xy 185.42 30.48)
 		)
 		(stroke
@@ -5098,6 +5556,16 @@
 			(type default)
 		)
 		(uuid "de879e18-a9a3-4c6a-8744-7f1c0dc89dc6")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 97.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f2f037-01a9-4720-99ec-c3d7ef8dfbd7")
 	)
 	(wire
 		(pts
@@ -5181,6 +5649,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 97.79) (xy 243.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ca17e8-6265-4084-a859-6709eea26601")
+	)
+	(wire
+		(pts
 			(xy 97.79 101.6) (xy 97.79 102.87)
 		)
 		(stroke
@@ -5211,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 38.1) (xy 97.79 38.1)
+			(xy 92.71 38.1) (xy 95.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5241,7 +5719,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 101.6) (xy 97.79 101.6)
+			(xy 92.71 101.6) (xy 95.25 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5261,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 243.84 97.79)
+			(xy 231.14 97.79) (xy 238.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5346,6 +5824,122 @@
 		(uuid "fcd640d4-ef25-4b8c-bb53-f84f027da481")
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 219.71 116.84 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00060192-f41a-43c7-8f87-0d811d7958c2")
+		(property "Reference" "D8"
+			(at 223.52 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 223.52 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "969e2658-68c0-4b86-acd2-427f3672d37d")
+		)
+		(pin "1"
+			(uuid "599af49e-5d48-4582-8ec2-0a7a31adb039")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 130.81 0)
 		(unit 1)
@@ -5356,7 +5950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0317c914-5b03-4393-9954-2d95267b0067")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR030"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5424,11 +6018,102 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "035856fa-93c7-4bb8-b86c-6186421d71e2")
+		(property "Reference" "TP4"
+			(at 44.45 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.64 115.0621 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 38.1 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c00244c-1bfb-4dc2-9410-f9a95940d9b3")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP58")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP40")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -5446,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05157896-45c8-41db-9d50-ad753fb34634")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR041"
 			(at 233.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5514,7 +6199,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -5556,7 +6241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 55.88 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +6312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0963216e-ec2a-40ab-86aa-1ccb502e10cd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 102.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5695,7 +6380,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -5737,7 +6422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5811,6 +6496,277 @@
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 114.3 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1331f003-d505-401c-b927-af5bb37f72f8")
+		(property "Reference" "#PWR027"
+			(at 114.3 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 110.49 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 114.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62b0d34e-95bd-4e8b-b95c-5bfb1ed01acc")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1369ccb5-fa3a-4965-ae2d-e9bcbc9088bd")
+		(property "Reference" "TP18"
+			(at 237.49 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 241.3 95.7579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 243.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad3bf6f5-144a-43a0-993e-3afae6d09e86")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP72")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP54")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a27047e-8b87-494c-a67d-0bc9fcd1a8d8")
+		(property "Reference" "TP12"
+			(at 120.65 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 99.5679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b109d35-f6a1-470c-b459-5f06224c8265")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP66")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP48")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP30")
+					(unit 1)
 				)
 			)
 		)
@@ -5937,7 +6893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "211f24f2-05ac-451b-b96d-95fe03f30e09")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR028"
 			(at 114.3 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6005,7 +6961,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -6049,7 +7005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 116.078 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -6254,7 +7210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 			(at 69.85 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -6309,6 +7265,97 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 49.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27f09c40-56ee-4a8b-ac47-cc6ec343ecb0")
+		(property "Reference" "TP2"
+			(at 44.45 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.64 51.5621 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0285c36f-28f1-4c48-8638-d36cb583c98b")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP56")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP38")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP2")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -6538,7 +7585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e7d584a-ea00-41ce-b48e-02ee1243a5bc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR032"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6606,7 +7653,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -6627,7 +7674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fc2a69b-1258-4d24-ae92-e2728ed560b3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 114.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6695,7 +7742,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -6841,6 +7888,186 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 30.48 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "314fe034-ef9a-4d71-aaf6-aab87870481d")
+		(property "Reference" "#PWR09"
+			(at 30.48 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 26.67 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 30.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dff18381-e602-440a-bfe3-3bb71747597a")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "359a4ea4-9dc0-4f05-a42b-76ec5fdc5061")
+		(property "Reference" "TP10"
+			(at 93.98 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.79 99.5679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 100.33 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3272d665-df69-457a-927b-d2f490444988")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP64")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP46")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP10")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -7046,6 +8273,97 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3cf09edb-d8f6-4174-97a0-fc4df2060c39")
+		(property "Reference" "TP7"
+			(at 53.34 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.2921 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bed36f7-6dbe-411e-af2c-1e967f4a4c20")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP61")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP43")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP7")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -7416,7 +8734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 			(at 69.85 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -7471,6 +8789,97 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58eaa56b-ca71-4ea5-b766-3c3e499a952a")
+		(property "Reference" "TP8"
+			(at 53.34 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.2921 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25f7b0f9-eac6-4d61-a25c-eff1e79ae96d")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP62")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP44")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP8")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -7624,7 +9033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 55.88 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7685,6 +9094,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c283534-9ac1-4316-857c-5026cddda020")
+		(property "Reference" "TP1"
+			(at 41.91 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 45.72 39.8779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 48.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "930cdb87-bc1c-45f4-8130-0f48cfa3d8bc")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP55")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP37")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 67.31 0)
 		(unit 1)
@@ -7695,7 +9195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c80f13f-7517-4ca7-9963-6030c22fe1fd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR029"
 			(at 123.19 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7763,7 +9263,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -7796,7 +9296,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1k"
 			(at 125.73 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +9307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 124.968 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -7879,7 +9379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61babe81-dfa5-4e05-aa8f-503a29e988fb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR040"
 			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7947,135 +9447,11 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 219.71 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "62bda03d-13aa-4aa3-9f77-10bb231feec1")
-		(property "Reference" "D7"
-			(at 219.71 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DKPN" "2368-1N4003-ND"
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29de5997-9e82-4c4b-88ef-24c1780589fb")
-		)
-		(pin "2"
-			(uuid "37f2e2d7-1335-48af-9ab3-40ef98cb7012")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "D31")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "D23")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -8189,7 +9565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66a6115d-18e6-40c2-bea9-219d4851a873")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR033"
 			(at 185.42 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +9633,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -8511,130 +9887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 219.71 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bf187b9-3640-4b77-af92-7cde46fe8d72")
-		(property "Reference" "D8"
-			(at 219.71 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
-			(at 219.71 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 219.71 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 219.71 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DKPN" "2368-1N4003-ND"
-			(at 219.71 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb406368-6c95-48b2-af19-a3eda8080e1b")
-		)
-		(pin "2"
-			(uuid "90226ebb-b567-4a93-845f-b6e7b3d7e5de")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "D32")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "D24")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "D8")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 182.88 99.06 0)
 		(mirror x)
@@ -8776,6 +10028,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70de856d-0b5e-48d5-9ea9-98d4ccf16c18")
+		(property "Reference" "TP6"
+			(at 53.34 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.2921 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae812e42-c330-4522-8a56-d85f4438d1e0")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP60")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP42")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 115.57 0)
 		(unit 1)
@@ -8786,7 +10129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70fe2032-8b5e-4e84-9087-9d210931e025")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 102.87 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8854,7 +10197,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -8876,7 +10219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c37750-8d9e-46cb-a2ef-1a561faf14c3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR042"
 			(at 233.68 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8944,11 +10287,102 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7600f2ae-c667-4c22-9b4c-7e65271cd6bf")
+		(property "Reference" "TP15"
+			(at 212.09 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.0421 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 207.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0e6cc91-95d3-47fb-97e4-e221ec3a967d")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP69")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP51")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP15")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -9082,6 +10516,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79fb24d2-06e2-45cf-9d8d-263785af13e7")
+		(property "Reference" "TP5"
+			(at 53.34 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.2921 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 48.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a49dee2-5232-49d2-9f4b-a60bba8592e4")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP59")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP41")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 175.26 93.98 0)
 		(unit 1)
@@ -9186,7 +10711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d945fb6-86b1-4459-8091-870b37e48044")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR031"
 			(at 166.37 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9254,96 +10779,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 114.3 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81f64413-8b21-4be3-90c8-bf4317af0f17")
-		(property "Reference" "#PWR?"
-			(at 114.3 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 110.49 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d5e92c6-6746-494a-962f-c406f23dacd4")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -9376,7 +10812,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1k"
 			(at 125.73 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9387,7 +10823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 124.968 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -9481,7 +10917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 116.078 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -9542,6 +10978,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86dec69c-ed70-4c09-aeb3-252170799774")
+		(property "Reference" "TP11"
+			(at 120.65 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 36.0679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e8b5b98-883c-4f67-b19b-30cd2a9cb396")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP65")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP47")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP11")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 200.66 43.18 0)
 		(unit 1)
@@ -9553,7 +11080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89f03842-5fd1-42c8-a5c4-eb3fe2337e53")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR039"
 			(at 200.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9621,7 +11148,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -9642,7 +11169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a0a156e-d30a-411e-b82b-685caa4f0705")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR035"
 			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9710,7 +11237,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -9732,7 +11259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7ccb96-8152-4082-8fdc-46cc9102dc73")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR034"
 			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9800,7 +11327,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -9821,7 +11348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97edfbdb-b892-4af1-b90d-c76b51cacebf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 45.72 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9889,7 +11416,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -9931,7 +11458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 130.81 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10108,6 +11635,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b2dff76-35fd-473e-b414-bd6b940e8115")
+		(property "Reference" "TP3"
+			(at 41.91 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 45.72 103.3779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 48.26 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d30aeb51-0acd-43b0-ae4b-0555b37f5d48")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP57")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP39")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 198.12 57.15 0)
 		(unit 1)
@@ -10119,7 +11737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c1c6950-de68-4259-9df2-83b21aedbc56")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR037"
 			(at 198.12 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10187,7 +11805,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -10220,7 +11838,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "19"
+		(property "Value" "10k"
 			(at 140.97 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10231,7 +11849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 140.208 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -10325,7 +11943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 			(at 122.2248 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10417,7 +12035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 			(at 113.03 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -10478,8 +12096,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 114.3 26.67 0)
+		(lib_id "Connector:TestPoint")
+		(at 238.76 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10487,9 +12105,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aeb446a3-0507-45b6-afd4-49d059798af8")
-		(property "Reference" "#PWR?"
-			(at 114.3 30.48 0)
+		(uuid "a694b32a-9183-4da5-8ce8-1cdb45dae6c0")
+		(property "Reference" "TP17"
+			(at 237.49 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 241.3 32.2579 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10497,20 +12126,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 110.49 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 26.67 0)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 243.84 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,7 +12141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 26.67 0)
+			(at 243.84 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10531,8 +12151,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 26.67 0)
+		(property "Description" "test point"
+			(at 238.76 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10543,24 +12163,115 @@
 			)
 		)
 		(pin "1"
-			(uuid "19a699f2-b6f3-4db1-bb2d-643a54ce57eb")
+			(uuid "094176f0-153b-480b-878c-1de24e8c1cf1")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "TP71")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "TP53")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "TP17")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adcdbd13-da73-4d8d-9f2f-cc60b3677097")
+		(property "Reference" "TP16"
+			(at 212.09 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.0421 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 207.01 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d9f3691-46f8-4323-933b-791f66d40a36")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP70")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP52")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP16")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -10599,7 +12310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 38.1 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10678,6 +12389,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b16fbf67-45f6-4860-995a-b2dac7c62548")
+		(property "Reference" "TP13"
+			(at 167.64 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.83 40.1321 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 161.29 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1245dd2e-ad92-41ff-bc69-3b60b771415a")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP67")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP49")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 138.43 45.72 180)
 		(unit 1)
@@ -10700,7 +12502,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "19"
+		(property "Value" "10k"
 			(at 140.97 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10711,7 +12513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 140.208 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -10766,6 +12568,97 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b738f1ab-0be3-4497-a80b-f91bdaadfc7f")
+		(property "Reference" "TP14"
+			(at 167.64 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.83 103.6321 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5aa2ec70-d86a-4287-926c-2865cce641f1")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP68")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP50")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -11303,7 +13196,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 			(at 113.03 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -11375,7 +13268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1598f8-4e31-424d-8896-6898bde308af")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR038"
 			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11443,96 +13336,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 30.48 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1aef65a-55c6-4cd6-b937-436e40713cf5")
-		(property "Reference" "#PWR?"
-			(at 30.48 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 26.67 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 30.48 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6d2f343-cc05-4b03-9384-a0cf286a7571")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -11674,7 +13478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 116.078 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +13572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 116.078 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -11921,6 +13725,97 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d91b06f2-be62-4199-b0a2-702244077afd")
+		(property "Reference" "TP9"
+			(at 93.98 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.79 36.0679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
+			(at 100.33 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2192c640-d394-4eb0-b492-d888ec82773f")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "TP63")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "TP45")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "TP9")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -12275,6 +14170,95 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 114.3 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0201263-93a8-41a8-b046-bb95c6894a1e")
+		(property "Reference" "#PWR025"
+			(at 114.3 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 110.49 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 114.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e60def0-86ea-40e4-9280-a10396c4e145")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 185.42 119.38 0)
 		(unit 1)
@@ -12286,7 +14270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0489bef-6082-49f9-afbe-17e075798275")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR036"
 			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12354,7 +14338,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR?")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
@@ -12398,7 +14382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 			(at 122.2248 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12453,6 +14437,122 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 219.71 53.34 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fffc7622-a087-4cff-818f-9ab48e3e9e79")
+		(property "Reference" "D7"
+			(at 223.52 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 223.52 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ba39b63-87b4-4f3e-9ac8-0ee1acbeba57")
+		)
+		(pin "1"
+			(uuid "6a74a551-aa1c-4d2c-a12d-75633fb7ce01")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D15")
 					(unit 1)
 				)
 			)

@@ -1862,6 +1862,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2104,6 +2243,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "STM32NucleoF303RE Main Board"
+		(exclude_from_sim no)
+		(at 97.79 33.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "056c2d3c-1305-4d44-b3f1-bea960a2d3c0")
+	)
 	(junction
 		(at 78.74 143.51)
 		(diameter 0)
@@ -2161,6 +2310,10 @@
 	(no_connect
 		(at 73.66 63.5)
 		(uuid "9e1c13e5-e579-41c6-a69c-a3a2edd61988")
+	)
+	(no_connect
+		(at 113.03 63.5)
+		(uuid "c0b8cab3-5e68-4261-a5e5-154b10ccc546")
 	)
 	(bus_entry
 		(at 147.32 93.98)
@@ -2616,16 +2769,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 76.2) (xy 63.5 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "037a8b65-982c-4893-8b5c-1c18e7b94616")
-	)
-	(wire
-		(pts
 			(xy 149.86 135.89) (xy 179.07 135.89)
 		)
 		(stroke
@@ -2703,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "160086d8-91c7-4076-9168-75782a551d07")
+	)
+	(wire
+		(pts
+			(xy 46.99 73.66) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178f88f2-50b1-4bc6-a42a-590de543d20d")
 	)
 	(bus
 		(pts
@@ -2886,16 +3039,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 71.12) (xy 63.5 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bf810d-d3bf-4710-8847-d17e1f8b09c1")
-	)
-	(wire
-		(pts
 			(xy 128.27 129.54) (xy 139.7 129.54)
 		)
 		(stroke
@@ -2923,16 +3066,6 @@
 			(type default)
 		)
 		(uuid "486879b5-737d-46dc-884f-2822da9ae336")
-	)
-	(wire
-		(pts
-			(xy 46.99 68.58) (xy 63.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b539728-f455-4fe8-819f-7fb4cb3f9842")
 	)
 	(wire
 		(pts
@@ -3056,6 +3189,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 76.2) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f96b818-5579-45db-81d4-6fa6d07dfbf9")
+	)
+	(wire
+		(pts
 			(xy 215.9 34.29) (xy 224.79 34.29)
 		)
 		(stroke
@@ -3176,16 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 73.66) (xy 63.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92dd4d81-cf50-4f08-b06c-2d95753257bc")
-	)
-	(wire
-		(pts
 			(xy 77.47 143.51) (xy 77.47 142.24)
 		)
 		(stroke
@@ -3233,6 +3366,16 @@
 			(type default)
 		)
 		(uuid "9fb5dc06-4327-43d3-b766-982e510067d2")
+	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2de7b18-d783-4346-bce7-b1c2f025aeed")
 	)
 	(wire
 		(pts
@@ -3343,6 +3486,16 @@
 			(type default)
 		)
 		(uuid "c50a4602-e78b-46d3-8d68-8e518ed79553")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c610ec46-b91c-4817-b863-3321dc021e6d")
 	)
 	(wire
 		(pts
@@ -3493,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "f2fd9dab-2989-421f-8d46-6a7fbdd5fe6b")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 115.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83c7637-125a-4c38-9603-5f0d59fac288")
 	)
 	(wire
 		(pts
@@ -4252,7 +4415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b781c2f-9862-46e4-9072-f0a073044e5b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR011"
 			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4312,7 +4475,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR03")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4341,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "STM32NucleoF303RE"
 			(at 66.04 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4352,7 +4515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nucleo:STM32NucleoF303RE"
 			(at 66.04 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4644,11 +4807,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c21614a-ad5c-43bc-aa69-44f603483415")
 		(property "Reference" "U1"
-			(at 92.71 64.77 0)
-			(hide yes)
+			(at 97.79 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4657,9 +4818,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 66.04 66.04 0)
-			(hide yes)
+		(property "Value" "STM32NucleoF303RE"
+			(at 97.79 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4668,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nucleo:STM32NucleoF303RE"
 			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4973,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "STM32NucleoF303RE"
 			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4984,7 +5144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nucleo:STM32NucleoF303RE"
 			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5277,7 +5437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e292988-bf55-4d8d-8fd0-ade7c756b730")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5337,7 +5497,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5354,7 +5514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81836066-f94e-4aa0-a106-fa02429c7515")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 118.11 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5414,7 +5574,84 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR06")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 194.31 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "819fc887-0646-4885-be47-16c9b17072a2")
+		(property "Reference" "#PWR024"
+			(at 194.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 190.5 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 194.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff4ec3d6-788e-461f-a554-ec50f686261f")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5432,7 +5669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9df51e5f-5dbe-412f-8ce4-876453b8076d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 113.03 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5492,7 +5729,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5758,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "STM32NucleoF303RE"
 			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5532,7 +5769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nucleo:STM32NucleoF303RE"
 			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5815,6 +6052,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 115.57 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc7a64ed-cf10-478a-8b43-8779248080b7")
+		(property "Reference" "#PWR07"
+			(at 115.57 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 119.38 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e3ee120-cafc-415f-82ad-83f65edbacb1")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 78.74 60.96 0)
 		(unit 1)
@@ -5825,7 +6139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c75b3d5e-2637-40f5-95ba-d0a596fccb4c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR03"
 			(at 78.74 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5885,85 +6199,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f79196e4-963b-475a-a791-3848bf8f1d70")
-		(property "Reference" "#PWR09"
-			(at 194.31 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 194.31 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d38d8497-8b7f-4e2d-93f4-e613a32c76b5")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
