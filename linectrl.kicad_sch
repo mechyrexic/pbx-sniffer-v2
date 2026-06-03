@@ -283,7 +283,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:6P4C"
+		(symbol "Connector:6P4C_Shielded"
 			(pin_names
 				(offset 1.016)
 			)
@@ -303,7 +303,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "6P4C"
+			(property "Value" "6P4C_Shielded"
 				(at 2.54 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -336,7 +336,7 @@
 					)
 				)
 			)
-			(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14"
+			(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14, Shielded"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -369,7 +369,7 @@
 					)
 				)
 			)
-			(symbol "6P4C_0_1"
+			(symbol "6P4C_Shielded_0_1"
 				(polyline
 					(pts
 						(xy -6.35 3.175) (xy -5.08 3.175) (xy -5.08 3.175)
@@ -468,7 +468,7 @@
 					)
 				)
 			)
-			(symbol "6P4C_1_1"
+			(symbol "6P4C_Shielded_1_1"
 				(pin passive line
 					(at 10.16 -2.54 180)
 					(length 2.54)
@@ -534,6 +534,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -805,194 +823,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3479,7 +3309,7 @@
 	)
 	(text "Input"
 		(exclude_from_sim no)
-		(at 31.75 57.15 0)
+		(at 31.75 60.96 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3489,7 +3319,7 @@
 	)
 	(text "Output\n"
 		(exclude_from_sim no)
-		(at 261.62 57.15 0)
+		(at 261.62 60.96 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3579,7 +3409,7 @@
 	)
 	(text "Output\n"
 		(exclude_from_sim no)
-		(at 261.62 120.65 0)
+		(at 261.62 124.46 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3619,7 +3449,7 @@
 	)
 	(text "Input"
 		(exclude_from_sim no)
-		(at 31.75 120.65 0)
+		(at 31.75 124.46 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4199,6 +4029,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 95.25) (xy 31.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f88cefa-be99-4e4a-aef2-3e4a45f116e8")
+	)
+	(wire
+		(pts
+			(xy 31.75 31.75) (xy 25.4 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a6b528-c541-4517-a17b-6172bc9f62b6")
+	)
+	(wire
+		(pts
 			(xy 43.18 49.53) (xy 45.72 49.53)
 		)
 		(stroke
@@ -4569,23 +4419,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 95.25) (xy 215.9 86.36)
+			(xy 215.9 86.36) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a5320bb-6a4a-460c-a48f-70d4551b85fb")
-	)
-	(wire
-		(pts
-			(xy 201.93 22.86) (xy 201.93 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf23b70-b904-4e91-a96d-431a2428c1c1")
 	)
 	(wire
 		(pts
@@ -4629,6 +4469,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 35.56) (xy 201.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cef144-a6a0-42a5-95c6-e1a6925d9271")
+	)
+	(wire
+		(pts
 			(xy 194.31 40.64) (xy 185.42 40.64)
 		)
 		(stroke
@@ -4669,13 +4519,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.36) (xy 201.93 87.63)
+			(xy 201.93 86.36) (xy 201.93 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "58f44329-26e1-4108-9ea4-d877e06a5f15")
+	)
+	(wire
+		(pts
+			(xy 201.93 22.86) (xy 201.93 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3bc58e-b13f-4040-9ec8-da6214deeb98")
 	)
 	(wire
 		(pts
@@ -4726,6 +4586,16 @@
 			(type default)
 		)
 		(uuid "6141725e-12a5-40a0-9e97-b40f09226d9c")
+	)
+	(wire
+		(pts
+			(xy 31.75 95.25) (xy 25.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f29948-22b2-4751-8f1e-574ea61690d4")
 	)
 	(wire
 		(pts
@@ -5459,6 +5329,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 31.75) (xy 31.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c3bc5e-92dc-4284-9966-3979d69cc54c")
+	)
+	(wire
+		(pts
 			(xy 198.12 66.04) (xy 198.12 64.77)
 		)
 		(stroke
@@ -5616,6 +5496,16 @@
 			(type default)
 		)
 		(uuid "e6facc69-9b88-4963-ad24-4d26ef6a16a1")
+	)
+	(wire
+		(pts
+			(xy 201.93 99.06) (xy 201.93 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ac2a4b-9b01-4faf-9f49-c81da078d20e")
 	)
 	(wire
 		(pts
@@ -5950,7 +5840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0317c914-5b03-4393-9954-2d95267b0067")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR021"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6010,19 +5900,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6131,7 +6021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05157896-45c8-41db-9d50-ad753fb34634")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR032"
 			(at 233.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6191,19 +6081,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR041")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0963216e-ec2a-40ab-86aa-1ccb502e10cd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 102.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6372,19 +6262,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6511,7 +6401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1331f003-d505-401c-b927-af5bb37f72f8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR018"
 			(at 114.3 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6571,19 +6461,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR019")
+					(reference "#PWR084")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR018")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR027")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR017")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6893,7 +6783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "211f24f2-05ac-451b-b96d-95fe03f30e09")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR019"
 			(at 114.3 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6953,19 +6843,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR085")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR028")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7585,7 +7475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e7d584a-ea00-41ce-b48e-02ee1243a5bc")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR023"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7645,19 +7535,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR032")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7674,7 +7564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fc2a69b-1258-4d24-ae92-e2728ed560b3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR017"
 			(at 114.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7734,19 +7624,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR083")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR026")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7904,7 +7794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "314fe034-ef9a-4d71-aaf6-aab87870481d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 30.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7964,19 +7854,109 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR023")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR022")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR021")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "326e4038-9135-418e-a74d-374ac2e4fa0a")
+		(property "Reference" "#PWR0122"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e2bb9b6-aad3-47f1-8995-349c8ad03d01")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -8401,7 +8381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:TY-145P"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8424,6 +8404,17 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, single secondary"
+			(at 82.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "237-1121-ND"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8462,6 +8453,95 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "472feb0d-ea92-41f4-9518-1644f774775b")
+		(property "Reference" "#PWR0118"
+			(at 25.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e1ff8cf-ab69-48f7-bb5f-2f1c6b6bdbef")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -9195,7 +9275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c80f13f-7517-4ca7-9963-6030c22fe1fd")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR020"
 			(at 123.19 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9255,19 +9335,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR029")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9379,7 +9459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61babe81-dfa5-4e05-aa8f-503a29e988fb")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR031"
 			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9439,19 +9519,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR040")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9565,7 +9645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66a6115d-18e6-40c2-bea9-219d4851a873")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR024"
 			(at 185.42 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9625,27 +9705,28 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR033")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 194.31 111.76 270)
+		(lib_id "Diode:1N4148")
+		(at 194.31 111.76 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9653,31 +9734,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6983852f-59fd-4381-8562-833b8f83ad48")
+		(uuid "6996b52d-b25d-41a3-a4ea-fa068a8816a1")
 		(property "Reference" "D6"
-			(at 197.485 110.4899 90)
+			(at 196.85 113.0301 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "D"
-			(at 197.485 113.0299 90)
+		(property "Value" "1N4148"
+			(at 190.5 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 194.31 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9688,7 +9768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 194.31 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9699,7 +9779,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 194.31 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9732,22 +9812,11 @@
 				)
 			)
 		)
-		(property "DKPN" "2368-1N4003-ND"
-			(at 194.31 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "4a94ca6b-13b3-471b-bdd0-df6a779fe647")
 		)
 		(pin "1"
-			(uuid "73e0722f-aa02-4882-82dc-86f82dd69363")
-		)
-		(pin "2"
-			(uuid "037a94f0-3750-423c-b94a-cf240d64e006")
+			(uuid "3984842b-7a88-4cb3-8e36-5b9b898af216")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
@@ -10129,7 +10198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70fe2032-8b5e-4e84-9087-9d210931e025")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR015"
 			(at 102.87 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10189,19 +10258,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR020")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10219,7 +10288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c37750-8d9e-46cb-a2ef-1a561faf14c3")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR033"
 			(at 233.68 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10279,19 +10348,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR042")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10383,133 +10452,6 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 194.31 48.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79554ff5-1382-436e-a4cc-dfa04d5b3397")
-		(property "Reference" "D5"
-			(at 197.485 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 197.485 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
-			(at 194.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 194.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 194.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DKPN" "2368-1N4003-ND"
-			(at 194.31 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ba73465-e952-44c2-945a-b0abc137e018")
-		)
-		(pin "2"
-			(uuid "5095caf3-e2c7-4d53-b637-7c2a4e84411f")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "D29")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "D5")
-					(unit 1)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10701,6 +10643,96 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 120.65 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d51972d-8074-43c6-8cf2-5904cc26d8ea")
+		(property "Reference" "#PWR0126"
+			(at 261.62 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcfb2dce-d476-4aa2-b7c4-7fde95372a71")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 166.37 26.67 0)
 		(unit 1)
@@ -10711,7 +10743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d945fb6-86b1-4459-8091-870b37e48044")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR022"
 			(at 166.37 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10771,19 +10803,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR031")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11080,7 +11112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89f03842-5fd1-42c8-a5c4-eb3fe2337e53")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR030"
 			(at 200.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11140,19 +11172,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR096")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR039")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11169,7 +11201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a0a156e-d30a-411e-b82b-685caa4f0705")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR026"
 			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11229,19 +11261,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR035")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11259,7 +11291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7ccb96-8152-4082-8fdc-46cc9102dc73")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR025"
 			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11319,19 +11351,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR034")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11348,7 +11380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97edfbdb-b892-4af1-b90d-c76b51cacebf")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 45.72 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11408,19 +11440,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11537,7 +11569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:6P4C")
+		(lib_id "Connector:6P4C_Shielded")
 		(at 31.75 107.95 0)
 		(mirror x)
 		(unit 1)
@@ -11549,17 +11581,18 @@
 		(dnp no)
 		(uuid "9a9c1fba-ff58-402d-947e-9a235c48c132")
 		(property "Reference" "J2"
-			(at 31.75 99.06 0)
+			(at 26.67 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "6P4C"
-			(at 31.75 96.52 0)
+			(at 36.83 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11568,7 +11601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:CUI_CRJ050-1-TH"
 			(at 31.75 108.585 90)
 			(hide yes)
 			(show_name no)
@@ -11590,7 +11623,18 @@
 				)
 			)
 		)
-		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14"
+		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14, Shielded"
+			(at 31.75 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "2223-CRJ050-1-TH-ND"
 			(at 31.75 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11612,6 +11656,9 @@
 		)
 		(pin "1"
 			(uuid "c99ba649-1d4f-438b-b683-43b55d04944e")
+		)
+		(pin "SH"
+			(uuid "cbbd852f-9008-49d1-b8d7-59ec33de9d2c")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
@@ -11737,7 +11784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c1c6950-de68-4259-9df2-83b21aedbc56")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR028"
 			(at 198.12 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11797,19 +11844,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR094")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR037")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12759,7 +12806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:6P4C")
+		(lib_id "Connector:6P4C_Shielded")
 		(at 261.62 110.49 0)
 		(mirror y)
 		(unit 1)
@@ -12771,13 +12818,14 @@
 		(dnp no)
 		(uuid "bb1233ff-8feb-4008-b5a0-3ff8836e9589")
 		(property "Reference" "J4"
-			(at 261.62 96.52 0)
+			(at 266.7 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "6P4C"
@@ -12790,7 +12838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:CUI_CRJ050-1-TH"
 			(at 261.62 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -12812,7 +12860,18 @@
 				)
 			)
 		)
-		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14"
+		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14, Shielded"
+			(at 261.62 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "2223-CRJ050-1-TH-ND"
 			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12834,6 +12893,9 @@
 		)
 		(pin "1"
 			(uuid "f5c57518-1297-435d-aaa6-bba646092628")
+		)
+		(pin "SH"
+			(uuid "bf424f7e-af55-4bd0-998d-104f2e90bccc")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
@@ -12982,7 +13044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:TY-145P"
 			(at 82.55 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13005,6 +13067,17 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, single secondary"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "237-1121-ND"
 			(at 82.55 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13268,7 +13341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1598f8-4e31-424d-8896-6898bde308af")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR029"
 			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13328,26 +13401,26 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR095")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:6P4C")
+		(lib_id "Connector:6P4C_Shielded")
 		(at 31.75 44.45 0)
 		(mirror x)
 		(unit 1)
@@ -13359,17 +13432,18 @@
 		(dnp no)
 		(uuid "c6fde7e2-b546-415e-98c5-9c8cf19a9a55")
 		(property "Reference" "J1"
-			(at 31.75 35.56 0)
+			(at 26.67 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "6P4C"
-			(at 31.75 33.02 0)
+			(at 36.83 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13378,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:CUI_CRJ050-1-TH"
 			(at 31.75 45.085 90)
 			(hide yes)
 			(show_name no)
@@ -13400,7 +13474,18 @@
 				)
 			)
 		)
-		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14"
+		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14, Shielded"
+			(at 31.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "2223-CRJ050-1-TH-ND"
 			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13422,6 +13507,9 @@
 		)
 		(pin "1"
 			(uuid "0bd8ed46-d845-46f4-a009-ff9d44d57149")
+		)
+		(pin "SH"
+			(uuid "42382457-8f82-4ed8-9ee8-113115652524")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
@@ -13539,6 +13627,95 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbc78df9-eb52-440d-8327-79eba6ddacf7")
+		(property "Reference" "#PWR0114"
+			(at 25.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed00b2f2-a411-437a-abb3-743d65c38641")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 114.3 95.25 180)
 		(unit 1)
@@ -13633,7 +13810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:6P4C")
+		(lib_id "Connector:6P4C_Shielded")
 		(at 261.62 46.99 0)
 		(mirror y)
 		(unit 1)
@@ -13645,13 +13822,14 @@
 		(dnp no)
 		(uuid "d78c4206-304c-4dec-b53f-328f7d9f1708")
 		(property "Reference" "J3"
-			(at 261.62 33.02 0)
+			(at 266.7 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "6P4C"
@@ -13664,7 +13842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:CUI_CRJ050-1-TH"
 			(at 261.62 46.355 90)
 			(hide yes)
 			(show_name no)
@@ -13686,7 +13864,18 @@
 				)
 			)
 		)
-		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14"
+		(property "Description" "RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14, Shielded"
+			(at 261.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "2223-CRJ050-1-TH-ND"
 			(at 261.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13709,6 +13898,9 @@
 		(pin "1"
 			(uuid "8d5cd6d8-70bf-41e1-a6a2-7f445767beee")
 		)
+		(pin "SH"
+			(uuid "62d2502f-f8a9-4ef2-bae3-9704d4b22fc8")
+		)
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
@@ -13725,6 +13917,122 @@
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 194.31 48.26 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d852c7fe-92ce-4c4a-b6da-61508012d487")
+		(property "Reference" "D5"
+			(at 196.85 49.5301 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 190.5 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 194.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 194.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 194.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 194.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d26e1b52-0cc8-4046-b766-ed6e1e6497d3")
+		)
+		(pin "1"
+			(uuid "2752a356-fe45-470c-9f19-ffe9d4c964e5")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -14180,7 +14488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0201263-93a8-41a8-b046-bb95c6894a1e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR016"
 			(at 114.3 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14240,19 +14548,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR015")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR014")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR013")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14270,7 +14578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0489bef-6082-49f9-afbe-17e075798275")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR027"
 			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14330,19 +14638,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR?")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR?")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR036")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR?")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

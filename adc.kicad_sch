@@ -1803,7 +1803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42236a14-1341-4a71-8cb7-b85ad7cb0822")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -1863,7 +1863,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -1926,6 +1926,17 @@
 			)
 		)
 		(property "Description" "A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"
+			(at 106.68 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "MCP3008-I/P-ND"
 			(at 106.68 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2400,7 +2411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b981a6-43aa-4087-b582-72ee11bd8bcb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0113"
 			(at 111.76 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2460,7 +2471,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)

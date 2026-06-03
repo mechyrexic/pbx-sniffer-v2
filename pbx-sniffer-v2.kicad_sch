@@ -209,7 +209,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 8.89 -76.2 90)
 					(length 2.54)
 					(name "GND"
@@ -407,7 +407,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 11.43 -76.2 90)
 					(length 2.54)
 					(name "GND"
@@ -425,7 +425,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 13.97 -76.2 90)
 					(length 2.54)
 					(name "GND"
@@ -461,7 +461,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 16.51 -76.2 90)
 					(length 2.54)
 					(name "GND"
@@ -890,7 +890,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 11.43 2.54 270)
 					(length 2.54)
 					(name "AVDD"
@@ -926,7 +926,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 7.62 -88.9 90)
 					(length 2.54)
 					(name "GND"
@@ -1124,7 +1124,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 10.16 -88.9 90)
 					(length 2.54)
 					(name "GND"
@@ -1340,7 +1340,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 12.7 -88.9 90)
 					(length 2.54)
 					(name "AGND"
@@ -1481,7 +1481,7 @@
 				)
 			)
 			(symbol "STM32NucleoF303RE_3_0"
-				(pin passive line
+				(pin power_in line
 					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -1499,7 +1499,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 8.89 -7.62 180)
 					(length 2.54)
 					(name "GND"
@@ -1532,7 +1532,7 @@
 				)
 			)
 			(symbol "STM32NucleoF303RE_4_0"
-				(pin passive line
+				(pin power_in line
 					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -1550,7 +1550,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 8.89 -7.62 180)
 					(length 2.54)
 					(name "GND"
@@ -2242,6 +2242,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "STM32NucleoF303RE Main Board"
 		(exclude_from_sim no)
@@ -2296,6 +2411,18 @@
 		(uuid "fb4fbc04-09e5-4fb0-b0af-3a501f1dceea")
 	)
 	(no_connect
+		(at 63.5 101.6)
+		(uuid "13608de4-bed5-46f8-8d2e-32bcb2e4dba4")
+	)
+	(no_connect
+		(at 63.5 119.38)
+		(uuid "1bcdb490-5888-4d77-a63d-25fbcce2de95")
+	)
+	(no_connect
+		(at 63.5 78.74)
+		(uuid "1d68a821-4a65-4c35-8e6f-131e02a52460")
+	)
+	(no_connect
 		(at 83.82 63.5)
 		(uuid "1fd31559-0599-42c0-b30f-a5b31da968ba")
 	)
@@ -2304,16 +2431,124 @@
 		(uuid "2ef6a532-c089-40dc-8514-90a23f2a1ed4")
 	)
 	(no_connect
+		(at 128.27 78.74)
+		(uuid "3c8c372f-b0e3-4f4b-a284-70d60857d815")
+	)
+	(no_connect
+		(at 128.27 81.28)
+		(uuid "3d667887-dd73-4e43-ac3d-341171fef232")
+	)
+	(no_connect
+		(at 128.27 142.24)
+		(uuid "3e5a12ef-e834-44ab-89b2-f6bf6731fcd1")
+	)
+	(no_connect
+		(at 63.5 132.08)
+		(uuid "44982686-a763-4f69-a945-5537b813daa4")
+	)
+	(no_connect
+		(at 128.27 99.06)
+		(uuid "6343a588-e961-40d0-a622-192ca3868d67")
+	)
+	(no_connect
+		(at 63.5 127)
+		(uuid "66925b46-824d-4c18-b739-6bae9c829971")
+	)
+	(no_connect
+		(at 128.27 71.12)
+		(uuid "67a2c957-a7af-44dd-91b0-7bf6f0bcd409")
+	)
+	(no_connect
 		(at 86.36 63.5)
 		(uuid "6b8bad0e-c637-4e92-966c-3dde76ba6bcd")
+	)
+	(no_connect
+		(at 63.5 134.62)
+		(uuid "711d60e0-6516-4ec1-b326-65ddaa586ed8")
+	)
+	(no_connect
+		(at 63.5 137.16)
+		(uuid "7bee1438-459a-4567-8d59-921dec8bc9e5")
+	)
+	(no_connect
+		(at 128.27 147.32)
+		(uuid "82e54b46-ffd6-4034-b82e-49a28fd088ef")
+	)
+	(no_connect
+		(at 128.27 93.98)
+		(uuid "8ab6fb6d-bb18-4c42-82ec-d279dbe75f39")
+	)
+	(no_connect
+		(at 63.5 96.52)
+		(uuid "92f6946d-71a1-42e1-8558-7278f19824c2")
+	)
+	(no_connect
+		(at 63.5 111.76)
+		(uuid "9c599f3e-e0df-495e-b960-1e90272ff84d")
 	)
 	(no_connect
 		(at 73.66 63.5)
 		(uuid "9e1c13e5-e579-41c6-a69c-a3a2edd61988")
 	)
 	(no_connect
+		(at 63.5 88.9)
+		(uuid "ae75e934-b5a7-4ed1-addf-45bb95e771f5")
+	)
+	(no_connect
+		(at 128.27 76.2)
+		(uuid "b365124b-6717-4620-b934-33d98f9f611d")
+	)
+	(no_connect
+		(at 63.5 124.46)
+		(uuid "bf5bbd63-31a3-4f1a-8001-71df0475271f")
+	)
+	(no_connect
 		(at 113.03 63.5)
 		(uuid "c0b8cab3-5e68-4261-a5e5-154b10ccc546")
+	)
+	(no_connect
+		(at 63.5 104.14)
+		(uuid "cbbd94b6-7644-4b49-84f2-035f26ebee89")
+	)
+	(no_connect
+		(at 128.27 73.66)
+		(uuid "ce9d7b1d-c85f-49e1-a4a8-1f59ec011864")
+	)
+	(no_connect
+		(at 63.5 121.92)
+		(uuid "d18752a2-c2c8-447d-83bc-714abb56866d")
+	)
+	(no_connect
+		(at 63.5 106.68)
+		(uuid "d67e73ea-aea1-42eb-885b-63072e9648e2")
+	)
+	(no_connect
+		(at 128.27 68.58)
+		(uuid "d8aaa0cb-9541-47f2-876c-279796694f67")
+	)
+	(no_connect
+		(at 63.5 114.3)
+		(uuid "df3d8999-14c7-4439-be30-ff71adaae57d")
+	)
+	(no_connect
+		(at 63.5 129.54)
+		(uuid "e4cca1d2-01f1-4a0e-8821-26716313604c")
+	)
+	(no_connect
+		(at 63.5 91.44)
+		(uuid "e877c595-0cc5-4d15-9e07-1342488914e7")
+	)
+	(no_connect
+		(at 63.5 99.06)
+		(uuid "efe33398-a2d0-42ed-863f-f0b67444eedc")
+	)
+	(no_connect
+		(at 63.5 93.98)
+		(uuid "f681107c-9412-4537-8315-3500319dec00")
+	)
+	(no_connect
+		(at 63.5 116.84)
+		(uuid "f7546949-0308-4446-b77e-8c3bf05919c7")
 	)
 	(bus_entry
 		(at 147.32 93.98)
@@ -2809,6 +3044,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 43.18) (xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d21ab9c-9b85-44b0-92ef-de0af0d7fd4d")
+	)
+	(wire
+		(pts
 			(xy 128.27 127) (xy 139.7 127)
 		)
 		(stroke
@@ -3296,6 +3541,16 @@
 			(type default)
 		)
 		(uuid "8c67e3a7-ed17-4456-b1f8-a47bbd4cc575")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 93.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d78681f-a6e1-414d-b791-7044611a536a")
 	)
 	(wire
 		(pts
@@ -3917,16 +4172,6 @@
 		)
 		(uuid "58c6f8d5-d794-4b26-bc2c-6fbe1726f348")
 	)
-	(label "PC13"
-		(at 63.5 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ed1c87b-5253-48c5-aa64-cbf85459d1f1")
-	)
 	(label "lineCtrls16"
 		(at 165.1 92.71 0)
 		(effects
@@ -3977,16 +4222,6 @@
 		)
 		(uuid "7804b9a1-e985-4a0c-8bda-300892bf581a")
 	)
-	(label "PA15"
-		(at 63.5 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7991604c-26f9-4271-9d27-4534b555f91a")
-	)
 	(label "adcCH3"
 		(at 215.9 49.53 0)
 		(effects
@@ -4016,16 +4251,6 @@
 			(justify left bottom)
 		)
 		(uuid "8a92a2ed-1e99-407d-85f7-e46c9be87cd8")
-	)
-	(label "PA14"
-		(at 63.5 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b0a14a3-a97e-4b48-befe-34976b8cad58")
 	)
 	(label "lineCtrls9"
 		(at 165.1 67.31 0)
@@ -4106,16 +4331,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb1c8c06-6e81-46a0-9912-cbc532d92f54")
-	)
-	(label "PB7"
-		(at 63.5 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6ad004d-4624-484e-80f0-fbc2cf38e7a7")
 	)
 	(label "lineCtrls4"
 		(at 165.1 39.37 0)
@@ -4259,7 +4474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101aa106-be98-4e28-8539-b3f0eeae73e1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 78.74 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4319,7 +4534,84 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR04")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11f3ee9a-dc92-404b-9050-a0ee38b4ba18")
+		(property "Reference" "#PWR06"
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c284a04e-bbfc-4487-8dd0-0d548e4a13c6")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4337,7 +4629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1336a2eb-b507-40b4-b0bb-66956c6529fe")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 77.47 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4397,7 +4689,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4415,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b781c2f-9862-46e4-9072-f0a073044e5b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4475,7 +4767,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5111,6 +5403,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34d13421-5089-491c-b769-02520fca9177")
+		(property "Reference" "#FLG02"
+			(at 104.14 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 104.14 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c7a42a8-bdce-4386-a45c-97eb6f36b410")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Nucleo:STM32NucleoF303RE")
 		(at 104.14 66.04 0)
 		(unit 2)
@@ -5437,7 +5807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e292988-bf55-4d8d-8fd0-ade7c756b730")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5497,7 +5867,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5514,7 +5884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81836066-f94e-4aa0-a106-fa02429c7515")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 118.11 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5574,7 +5944,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5591,7 +5961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819fc887-0646-4885-be47-16c9b17072a2")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR011"
 			(at 194.31 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5651,7 +6021,163 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR024")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 93.98 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d258aa7-a13a-4822-9a1d-288dce4d8f4f")
+		(property "Reference" "#FLG01"
+			(at 93.98 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 93.98 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 93.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d484593-df76-415f-a84d-6e3a254f99d4")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 93.98 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99912ff8-04a5-472d-8272-95a2fbaa403c")
+		(property "Reference" "#PWR05"
+			(at 93.98 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 93.98 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 93.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b016662-1a35-4f3c-ad7a-2779f6a361a8")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5669,7 +6195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9df51e5f-5dbe-412f-8ce4-876453b8076d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 113.03 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5729,7 +6255,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6062,7 +6588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc7a64ed-cf10-478a-8b43-8779248080b7")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 115.57 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6122,7 +6648,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6139,7 +6665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c75b3d5e-2637-40f5-95ba-d0a596fccb4c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 78.74 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6199,7 +6725,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

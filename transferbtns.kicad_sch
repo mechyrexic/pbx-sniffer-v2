@@ -2579,7 +2579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:AMPHENOL_54602-908LF"
 			(at 57.15 76.835 90)
 			(hide yes)
 			(show_name no)
@@ -2602,6 +2602,17 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
+			(at 57.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "609-1046-ND"
 			(at 57.15 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2979,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fcf030c-f781-41d7-b7fa-75dd61037c07")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0104"
 			(at 85.09 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3039,7 +3050,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:AMPHENOL_54602-908LF"
 			(at 57.15 45.085 90)
 			(hide yes)
 			(show_name no)
@@ -3478,6 +3489,17 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
+			(at 57.15 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "609-1046-ND"
 			(at 57.15 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3612,7 +3634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64058170-7a46-4f2b-9170-27af3c982c68")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3672,7 +3694,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3933,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ec88ea-3711-4aa1-a60d-df695eea5f9d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0106"
 			(at 85.09 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3993,7 +4015,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4011,7 +4033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9053935a-6b59-4c46-a29a-8a1581c08d5b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0110"
 			(at 139.7 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4071,7 +4093,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -4089,7 +4111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b4cf9a-63b0-4880-bdd1-aa6868d1aabc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 85.09 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -4149,7 +4171,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -4166,7 +4188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99df39aa-570a-4a1e-94c3-5bb8292ba039")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0109"
 			(at 125.73 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4226,7 +4248,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR01")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41ab2dd-0d30-4c2f-8040-69e503c9a251")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 85.09 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4304,7 +4326,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6dcc28-4bac-4b3e-b2c8-f570594a3e21")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 85.09 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4461,7 +4483,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4640,7 +4662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9a15b59-8bbd-4d9b-b420-d9c6e9d7e05d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4700,7 +4722,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4797,7 +4819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e182320f-5b3d-4c13-a531-cab38bbd6228")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 85.09 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -4857,7 +4879,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4875,7 +4897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d31221-a786-46fc-be97-5abd8f918291")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0100"
 			(at 68.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4935,7 +4957,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR010")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -5032,7 +5054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e46eae-cf06-4ab8-92d5-1cab5e44f215")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5092,7 +5114,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
