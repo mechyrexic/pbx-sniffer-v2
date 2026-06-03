@@ -1197,10 +1197,10 @@
 		(uuid "ce4f7264-c202-48e3-b244-bc63949169fa")
 	)
 	(junction
-		(at 85.09 38.1)
+		(at 85.09 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f03b8ba2-d6ff-4458-8e5c-8330799fc648")
+		(uuid "ddc193d2-3607-4906-ae75-27e1b6a34321")
 	)
 	(junction
 		(at 85.09 58.42)
@@ -1272,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 73.66 53.34)
+			(xy 73.66 160.02) (xy 73.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 77.47 45.72)
+			(xy 77.47 99.06) (xy 77.47 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1352,6 +1352,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 35.56) (xy 85.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351a3469-a97a-4969-a49d-350be816c125")
+	)
+	(wire
+		(pts
 			(xy 100.33 180.34) (xy 100.33 52.07)
 		)
 		(stroke
@@ -1372,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 67.31 45.72)
+			(xy 77.47 43.18) (xy 67.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1452,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 78.74 43.18)
+			(xy 78.74 78.74) (xy 78.74 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1462,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 38.1) (xy 85.09 38.1)
+			(xy 91.44 35.56) (xy 85.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1492,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 43.18) (xy 67.31 43.18)
+			(xy 67.31 67.31) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a44447-9d5f-420f-b687-85c82f97295a")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 67.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1522,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 50.8) (xy 67.31 50.8)
+			(xy 74.93 48.26) (xy 67.31 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1552,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 76.2 48.26)
+			(xy 76.2 119.38) (xy 76.2 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 67.31 53.34)
+			(xy 73.66 50.8) (xy 67.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1582,7 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 34.29) (xy 91.44 38.1)
+			(xy 91.44 34.29) (xy 91.44 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1609,16 +1629,6 @@
 			(type default)
 		)
 		(uuid "8a097082-b884-4122-a1e3-3247e628ab08")
-	)
-	(wire
-		(pts
-			(xy 67.31 35.56) (xy 69.85 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad7c47d-68f5-47a0-b960-30ab53ef7fa1")
 	)
 	(wire
 		(pts
@@ -1692,6 +1702,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 66.04) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a548c0f0-8124-49c4-a42b-838b4319319a")
+	)
+	(wire
+		(pts
 			(xy 85.09 160.02) (xy 99.06 160.02)
 		)
 		(stroke
@@ -1712,16 +1732,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 33.02) (xy 69.85 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab4a6f93-3aea-4610-9b73-78f571393dda")
-	)
-	(wire
-		(pts
 			(xy 85.09 168.91) (xy 85.09 170.18)
 		)
 		(stroke
@@ -1732,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 180.34) (xy 72.39 67.31)
+			(xy 72.39 180.34) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 67.31 48.26)
+			(xy 76.2 45.72) (xy 67.31 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1792,23 +1802,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 139.7) (xy 74.93 50.8)
+			(xy 74.93 139.7) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dda0e4a7-ff19-4ce9-8162-3bb427885eda")
-	)
-	(wire
-		(pts
-			(xy 85.09 38.1) (xy 85.09 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02960b9-5182-43b6-88c9-b8e3eca8649e")
 	)
 	(wire
 		(pts
@@ -1872,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 40.64) (xy 67.31 40.64)
+			(xy 80.01 38.1) (xy 67.31 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 67.31) (xy 67.31 67.31)
+			(xy 72.39 53.34) (xy 67.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 58.42) (xy 80.01 40.64)
+			(xy 80.01 58.42) (xy 80.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 38.1) (xy 85.09 38.1)
+			(xy 67.31 35.56) (xy 85.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2331,83 +2331,6 @@
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
 					(reference "R71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b3c3107-afce-442a-969b-78436236f102")
-		(property "Reference" "#PWR?"
-			(at 69.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 73.66 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ded8b26-b8da-4c4e-adff-9a777bcb2b59")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3830,6 +3753,84 @@
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9d31221-a786-46fc-be97-5abd8f918291")
+		(property "Reference" "#PWR010"
+			(at 68.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 68.58 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d1944b2-1899-4fa5-9e5a-5e23157522b2")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)

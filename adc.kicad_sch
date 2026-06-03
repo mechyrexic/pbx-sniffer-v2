@@ -742,19 +742,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Add decoupling caps\n"
-		(exclude_from_sim no)
-		(at 127 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "509f17a7-5dc2-4d80-9ef6-cd6ee4a1b45b")
-	)
 	(text "Add layout features to isolate problems\n"
 		(exclude_from_sim no)
-		(at 142.24 101.6 0)
+		(at 147.32 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
