@@ -1487,7 +1487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1876c2ae-19f0-4eee-a5dc-b9f3f504977e")
-		(property "Reference" "TP94"
+		(property "Reference" "TP22"
 			(at 129.54 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,7 +1549,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP94")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -1566,7 +1566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c16b1b1-2233-4dc1-bb75-73b99fc36aaf")
-		(property "Reference" "TP85"
+		(property "Reference" "TP13"
 			(at 58.42 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1628,7 +1628,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP85")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -1645,7 +1645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26b6fc79-a301-4d2f-9fb2-19764bebf21d")
-		(property "Reference" "TP91"
+		(property "Reference" "TP19"
 			(at 73.66 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1707,7 +1707,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP91")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -1724,7 +1724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3edfab57-1fae-484c-be3b-deb80071e366")
-		(property "Reference" "TP86"
+		(property "Reference" "TP14"
 			(at 60.96 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1786,7 +1786,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP86")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -1803,7 +1803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42236a14-1341-4a71-8cb7-b85ad7cb0822")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR032"
 			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -1863,7 +1863,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "#PWR0112")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d2ea0f7-344a-428a-a748-ea9576f13087")
-		(property "Reference" "TP89"
+		(property "Reference" "TP17"
 			(at 68.58 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +2077,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP89")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -2094,7 +2094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d3c287b-dc8d-4411-bfe9-337cec243281")
-		(property "Reference" "TP87"
+		(property "Reference" "TP15"
 			(at 63.5 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2156,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP87")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -2173,7 +2173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55e35e4b-432b-474d-9e9e-bf046d5ab393")
-		(property "Reference" "TP90"
+		(property "Reference" "TP18"
 			(at 71.12 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,7 +2235,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP90")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -2252,7 +2252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a78d1979-0c5f-4653-9510-4e32d5fd589c")
-		(property "Reference" "TP96"
+		(property "Reference" "TP24"
 			(at 137.16 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2314,7 +2314,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP96")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -2331,7 +2331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bde76d4e-ca09-404c-acef-fba2ed589a51")
-		(property "Reference" "TP95"
+		(property "Reference" "TP23"
 			(at 133.35 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2393,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP95")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -2411,7 +2411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b981a6-43aa-4087-b582-72ee11bd8bcb")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR033"
 			(at 111.76 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2471,7 +2471,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "#PWR0113")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2488,7 +2488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfeb9c97-6b9b-4e7a-b1a3-5f80d32c4885")
-		(property "Reference" "TP92"
+		(property "Reference" "TP20"
 			(at 76.2 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2550,7 +2550,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP92")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -2567,7 +2567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0f8ed05-fa82-4040-87d8-cbffe575663e")
-		(property "Reference" "TP88"
+		(property "Reference" "TP16"
 			(at 66.04 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,7 +2629,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP88")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -2646,7 +2646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f70a1006-b33d-411a-adc0-04a7de5bb651")
-		(property "Reference" "TP93"
+		(property "Reference" "TP21"
 			(at 125.73 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2708,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP93")
+					(reference "TP21")
 					(unit 1)
 				)
 			)

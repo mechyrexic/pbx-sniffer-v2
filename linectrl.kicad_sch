@@ -1036,11 +1036,11 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR078")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR056")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
@@ -1048,7 +1048,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR034")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1235,11 +1235,11 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR079")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR057")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
@@ -1247,7 +1247,7 @@
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR035")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
