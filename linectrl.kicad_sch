@@ -552,7 +552,7 @@
 	)
 	(rectangle
 		(start 101.6 76.2)
-		(end 185.42 120.65)
+		(end 199.39 120.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -589,7 +589,7 @@
 		(uuid "d2cd8404-0413-4bae-a1f2-f8ac725ea491")
 	)
 	(junction
-		(at 165.1 95.25)
+		(at 180.34 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "deb51ed0-0480-4512-b2e4-1fc0555529ee")
@@ -616,7 +616,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 162.56 107.95)
+			(xy 180.34 107.95) (xy 179.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -656,7 +656,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 95.25) (xy 165.1 107.95)
+			(xy 180.34 95.25) (xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -676,7 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 110.49) (xy 138.43 110.49)
+			(xy 157.48 110.49) (xy 153.67 110.49)
 		)
 		(stroke
 			(width 0)
@@ -686,7 +686,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 129.54 107.95)
+			(xy 132.08 107.95) (xy 130.81 107.95)
 		)
 		(stroke
 			(width 0)
@@ -696,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 97.79) (xy 140.97 107.95)
+			(xy 156.21 97.79) (xy 156.21 107.95)
 		)
 		(stroke
 			(width 0)
@@ -706,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 107.95) (xy 110.49 107.95)
+			(xy 107.95 107.95) (xy 109.22 107.95)
 		)
 		(stroke
 			(width 0)
@@ -716,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 107.95) (xy 143.51 107.95)
+			(xy 156.21 107.95) (xy 157.48 107.95)
 		)
 		(stroke
 			(width 0)
@@ -726,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 87.63) (xy 170.18 87.63)
+			(xy 132.08 87.63) (xy 185.42 87.63)
 		)
 		(stroke
 			(width 0)
@@ -736,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 140.97 97.79)
+			(xy 161.29 97.79) (xy 156.21 97.79)
 		)
 		(stroke
 			(width 0)
@@ -756,7 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 110.49) (xy 138.43 92.71)
+			(xy 153.67 110.49) (xy 153.67 92.71)
 		)
 		(stroke
 			(width 0)
@@ -776,7 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 90.17) (xy 170.18 90.17)
+			(xy 180.34 90.17) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -786,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 110.49) (xy 105.41 110.49)
+			(xy 109.22 110.49) (xy 105.41 110.49)
 		)
 		(stroke
 			(width 0)
@@ -796,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 92.71) (xy 146.05 92.71)
+			(xy 153.67 92.71) (xy 161.29 92.71)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +816,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 95.25) (xy 165.1 95.25)
+			(xy 179.07 113.03) (xy 184.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf1707b-e3cf-42da-98de-a02c082a5655")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 135.89 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07e4b1a-1f3f-4752-a591-3f09d3ff5d7f")
+	)
+	(wire
+		(pts
+			(xy 176.53 95.25) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -826,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 95.25) (xy 165.1 90.17)
+			(xy 180.34 95.25) (xy 180.34 90.17)
 		)
 		(stroke
 			(width 0)
@@ -834,9 +854,73 @@
 		)
 		(uuid "e20c0b1c-7377-4922-a65d-eac70fd8ec2c")
 	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e751bf20-e154-4a93-8aa9-16ee1383a5b2")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9eb085-f608-4b0d-9608-3077c002d95f")
+	)
+	(hierarchical_label "hookSW2"
+		(shape input)
+		(at 184.15 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e12145b-96c6-4bf3-95c8-f3bfc46f3d9b")
+	)
+	(hierarchical_label "hookSW1"
+		(shape input)
+		(at 135.89 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7657953c-30ce-4c1f-b902-75a976f87551")
+	)
+	(hierarchical_label "controlSW2"
+		(shape input)
+		(at 184.15 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78218b0f-839a-41eb-8b1f-51eb9ec07869")
+	)
+	(hierarchical_label "controlSW1"
+		(shape input)
+		(at 135.89 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dc283fd-6dd5-418e-af4d-37a8d2d14a88")
+	)
 	(hierarchical_label "audioOut1"
 		(shape output)
-		(at 170.18 87.63 0)
+		(at 185.42 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -847,7 +931,7 @@
 	)
 	(hierarchical_label "audioOut2"
 		(shape output)
-		(at 170.18 90.17 0)
+		(at 185.42 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -858,7 +942,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 153.67 95.25 0)
+		(at 168.91 95.25 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -868,7 +952,7 @@
 		(dnp no)
 		(uuid "28887f51-5b35-4ce6-9186-ce42e958f6c4")
 		(property "Reference" "U2"
-			(at 153.67 83.82 0)
+			(at 168.91 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -878,7 +962,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 153.67 86.36 0)
+			(at 168.91 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -888,7 +972,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 153.67 95.25 0)
+			(at 168.91 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -899,7 +983,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 153.67 95.25 0)
+			(at 168.91 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -910,7 +994,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 153.67 95.25 0)
+			(at 168.91 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1120,28 +1204,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "85d5689d-27aa-4e03-997c-09d3881cbd4d")
+			(uuid "85d5689d-27aa-4e03-997c-09d3881cbd4e")
 		)
 		(pin "1"
-			(uuid "4a01c590-1296-4df9-9977-4c3feda7cf85")
+			(uuid "4a01c590-1296-4df9-9977-4c3feda7cf86")
 		)
 		(pin "5"
-			(uuid "62c4bf01-029d-409c-864f-0b831762b1a8")
+			(uuid "62c4bf01-029d-409c-864f-0b831762b1a9")
 		)
 		(pin "7"
-			(uuid "2a259017-3b90-44f0-b000-f5ea09a7ddea")
+			(uuid "2a259017-3b90-44f0-b000-f5ea09a7ddeb")
 		)
 		(pin "3"
-			(uuid "b5fe4789-5eaf-408b-94dc-0ce54848cff7")
+			(uuid "b5fe4789-5eaf-408b-94dc-0ce54848cff8")
 		)
 		(pin "6"
-			(uuid "917ca842-ccab-41cd-bb5e-0c87c16a16bb")
+			(uuid "917ca842-ccab-41cd-bb5e-0c87c16a16bc")
 		)
 		(pin "8"
-			(uuid "d0b17791-a592-4374-a151-1da6200da796")
+			(uuid "d0b17791-a592-4374-a151-1da6200da797")
 		)
 		(pin "4"
-			(uuid "a2a9087d-73c3-42ba-8952-42fb083c2ad6")
+			(uuid "a2a9087d-73c3-42ba-8952-42fb083c2ad7")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
@@ -1318,28 +1402,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "85d5689d-27aa-4e03-997c-09d3881cbd4d")
+			(uuid "85d5689d-27aa-4e03-997c-09d3881cbd4f")
 		)
 		(pin "1"
-			(uuid "4a01c590-1296-4df9-9977-4c3feda7cf85")
+			(uuid "4a01c590-1296-4df9-9977-4c3feda7cf87")
 		)
 		(pin "5"
-			(uuid "62c4bf01-029d-409c-864f-0b831762b1a8")
+			(uuid "62c4bf01-029d-409c-864f-0b831762b1aa")
 		)
 		(pin "7"
-			(uuid "2a259017-3b90-44f0-b000-f5ea09a7ddea")
+			(uuid "2a259017-3b90-44f0-b000-f5ea09a7ddec")
 		)
 		(pin "3"
-			(uuid "b5fe4789-5eaf-408b-94dc-0ce54848cff7")
+			(uuid "b5fe4789-5eaf-408b-94dc-0ce54848cff9")
 		)
 		(pin "6"
-			(uuid "917ca842-ccab-41cd-bb5e-0c87c16a16bb")
+			(uuid "917ca842-ccab-41cd-bb5e-0c87c16a16bd")
 		)
 		(pin "8"
-			(uuid "d0b17791-a592-4374-a151-1da6200da796")
+			(uuid "d0b17791-a592-4374-a151-1da6200da798")
 		)
 		(pin "4"
-			(uuid "a2a9087d-73c3-42ba-8952-42fb083c2ad6")
+			(uuid "a2a9087d-73c3-42ba-8952-42fb083c2ad8")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
@@ -1363,8 +1447,8 @@
 		)
 	)
 	(sheet
-		(at 143.51 105.41)
-		(size 19.05 7.62)
+		(at 157.48 105.41)
+		(size 21.59 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1379,7 +1463,7 @@
 		)
 		(uuid "07764dc3-0703-4236-a94a-216dbd2b7532")
 		(property "Sheetname" "LineCtrlSingle2"
-			(at 143.51 104.6984 0)
+			(at 157.48 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1390,7 +1474,7 @@
 			)
 		)
 		(property "Sheetfile" "linectrlsingle.kicad_sch"
-			(at 143.51 113.6146 0)
+			(at 157.48 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1401,7 +1485,7 @@
 			)
 		)
 		(pin "ampV+" output
-			(at 143.51 110.49 180)
+			(at 157.48 110.49 180)
 			(uuid "412af4b0-3fda-4f28-b5d5-a8608f5ae50b")
 			(effects
 				(font
@@ -1411,7 +1495,7 @@
 			)
 		)
 		(pin "ampV-" output
-			(at 143.51 107.95 180)
+			(at 157.48 107.95 180)
 			(uuid "8fb2ff7e-f583-4fcf-a436-47f869cd1804")
 			(effects
 				(font
@@ -1421,8 +1505,28 @@
 			)
 		)
 		(pin "ampVout" input
-			(at 162.56 107.95 0)
+			(at 179.07 107.95 0)
 			(uuid "46a343be-bf14-4a91-b610-48b2b2c929d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "controlSW" input
+			(at 179.07 110.49 0)
+			(uuid "bae42b7a-5361-4038-b41d-6187b6088992")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "hookSW" input
+			(at 179.07 113.03 0)
+			(uuid "fdc605d9-d579-4db1-bfd2-8d85fb07d565")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,8 +1552,8 @@
 		)
 	)
 	(sheet
-		(at 110.49 105.41)
-		(size 19.05 7.62)
+		(at 109.22 105.41)
+		(size 21.59 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1464,7 +1568,7 @@
 		)
 		(uuid "e3d2302f-3853-45cb-a241-06755ae599a8")
 		(property "Sheetname" "LineCtrlSingle1"
-			(at 110.49 104.6984 0)
+			(at 109.22 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1475,7 +1579,7 @@
 			)
 		)
 		(property "Sheetfile" "linectrlsingle.kicad_sch"
-			(at 110.49 113.6146 0)
+			(at 109.22 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1486,7 +1590,7 @@
 			)
 		)
 		(pin "ampV+" output
-			(at 110.49 110.49 180)
+			(at 109.22 110.49 180)
 			(uuid "41334227-8010-40fc-af1c-c1cc6dbf5ea7")
 			(effects
 				(font
@@ -1496,7 +1600,7 @@
 			)
 		)
 		(pin "ampV-" output
-			(at 110.49 107.95 180)
+			(at 109.22 107.95 180)
 			(uuid "d6944412-d539-45de-8873-c72489e9fc2c")
 			(effects
 				(font
@@ -1506,8 +1610,28 @@
 			)
 		)
 		(pin "ampVout" input
-			(at 129.54 107.95 0)
+			(at 130.81 107.95 0)
 			(uuid "1042e053-60ca-49ee-a315-6cd72d6753e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "controlSW" input
+			(at 130.81 110.49 0)
+			(uuid "68f92f07-43c7-4e51-9751-a3c2ab95e410")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "hookSW" input
+			(at 130.81 113.03 0)
+			(uuid "209cea04-36d4-4e02-a7c1-c1c8e301d425")
 			(effects
 				(font
 					(size 1.27 1.27)

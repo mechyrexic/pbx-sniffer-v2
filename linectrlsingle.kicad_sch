@@ -4208,7 +4208,7 @@
 		)
 		(uuid "c306d9b1-5bb7-46d8-b1fb-95183c04e62e")
 	)
-	(hierarchical_label "hookSW1"
+	(hierarchical_label "hookSW"
 		(shape input)
 		(at 162.56 86.36 180)
 		(effects
@@ -4219,7 +4219,7 @@
 		)
 		(uuid "cf9c77a4-9fc9-4348-89d7-d84237f55c62")
 	)
-	(hierarchical_label "controlSW1"
+	(hierarchical_label "controlSW"
 		(shape input)
 		(at 189.23 114.3 180)
 		(effects
