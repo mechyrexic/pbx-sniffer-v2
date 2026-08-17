@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "M5 PBX Sniffer")
-		(date "2026-06-01")
-		(rev "V2")
+		(date "2026-08-17")
+		(rev "V2.1")
 		(comment 4 "Tobe Cynar")
 	)
 	(lib_symbols
