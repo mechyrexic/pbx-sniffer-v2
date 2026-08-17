@@ -676,7 +676,7 @@
         "uuid": "eb421281-26a1-483f-b39a-0425ec8eb8df"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C25-38,R73-74,FB1,#PWR1-10,J19,U1,U8",
     "variants": []
   },
   "sheets": [
@@ -685,20 +685,60 @@
       "Root"
     ],
     [
+      "7ac9a42b-6de6-41ec-8c26-25e06abc1307",
+      "MCU"
+    ],
+    [
+      "09b79dd0-426f-45f8-8b40-abaa4f7beb7c",
+      "USB"
+    ],
+    [
       "d196d4b4-6022-462f-b84d-8329b2cd3e57",
       "LineCtrl1"
+    ],
+    [
+      "e3d2302f-3853-45cb-a241-06755ae599a8",
+      "LineCtrlSingle1"
+    ],
+    [
+      "07764dc3-0703-4236-a94a-216dbd2b7532",
+      "LineCtrlSingle2"
     ],
     [
       "e134bfb4-8959-4249-a7dd-8912fc4b0eb6",
       "LineCtrl2"
     ],
     [
+      "e3d2302f-3853-45cb-a241-06755ae599a8",
+      "LineCtrlSingle1"
+    ],
+    [
+      "07764dc3-0703-4236-a94a-216dbd2b7532",
+      "LineCtrlSingle2"
+    ],
+    [
       "b0f9f7c2-daf3-42bc-b325-e20704d56b03",
       "LineCtrl3"
     ],
     [
+      "e3d2302f-3853-45cb-a241-06755ae599a8",
+      "LineCtrlSingle1"
+    ],
+    [
+      "07764dc3-0703-4236-a94a-216dbd2b7532",
+      "LineCtrlSingle2"
+    ],
+    [
       "0b0224b2-e87f-4eed-adc6-d3b2e3f746a5",
       "LineCtrl4"
+    ],
+    [
+      "e3d2302f-3853-45cb-a241-06755ae599a8",
+      "LineCtrlSingle1"
+    ],
+    [
+      "07764dc3-0703-4236-a94a-216dbd2b7532",
+      "LineCtrlSingle2"
     ],
     [
       "e4c2ebee-8cf8-408f-ab71-48d7afe9e7e1",
@@ -707,38 +747,6 @@
     [
       "ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e",
       "ADC"
-    ],
-    [
-      "e3d2302f-3853-45cb-a241-06755ae599a8",
-      "LineCtrlSingle1"
-    ],
-    [
-      "07764dc3-0703-4236-a94a-216dbd2b7532",
-      "LineCtrlSingle2"
-    ],
-    [
-      "e3d2302f-3853-45cb-a241-06755ae599a8",
-      "LineCtrlSingle1"
-    ],
-    [
-      "07764dc3-0703-4236-a94a-216dbd2b7532",
-      "LineCtrlSingle2"
-    ],
-    [
-      "e3d2302f-3853-45cb-a241-06755ae599a8",
-      "LineCtrlSingle1"
-    ],
-    [
-      "07764dc3-0703-4236-a94a-216dbd2b7532",
-      "LineCtrlSingle2"
-    ],
-    [
-      "e3d2302f-3853-45cb-a241-06755ae599a8",
-      "LineCtrlSingle1"
-    ],
-    [
-      "07764dc3-0703-4236-a94a-216dbd2b7532",
-      "LineCtrlSingle2"
     ]
   ],
   "text_variables": {},
