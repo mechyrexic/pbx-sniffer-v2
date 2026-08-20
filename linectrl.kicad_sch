@@ -1259,7 +1259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97edfbdb-b892-4af1-b90d-c76b51cacebf")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -1319,19 +1319,19 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -1537,16 +1537,16 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(page "6")
+					(page "7")
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(page "9")
+					(page "10")
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(page "12")
+					(page "13")
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
@@ -1642,16 +1642,16 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(page "5")
+					(page "6")
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(page "8")
+					(page "9")
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(page "11")
+					(page "12")
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(page "14")
+					(page "15")
 				)
 			)
 		)

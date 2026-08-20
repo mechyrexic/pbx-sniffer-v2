@@ -2882,132 +2882,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDD"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDD_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 24.13 66.04)
@@ -4558,7 +4432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 186.69 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -4569,7 +4443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "211a222e-fbf2-45c9-90fd-c25dda94a3bd")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR41"
 			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4580,8 +4454,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 186.69 107.95 0)
+		(property "Value" "GND"
+			(at 186.69 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4612,7 +4486,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 186.69 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4629,35 +4503,35 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0125")
+					(reference "#PWR125")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR0113")
+					(reference "#PWR113")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0101")
+					(reference "#PWR101")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR089")
+					(reference "#PWR89")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR053")
+					(reference "#PWR53")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR041")
+					(reference "#PWR41")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR077")
+					(reference "#PWR77")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR065")
+					(reference "#PWR65")
 					(unit 1)
 				)
 			)
@@ -4695,7 +4569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 114.3 85.3948 0)
 			(hide yes)
 			(show_name no)
@@ -4782,7 +4656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d4f8f37-af3a-4b81-91f1-e462b076baa0")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 104.14 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4842,35 +4716,35 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0119")
+					(reference "#PWR119")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR0107")
+					(reference "#PWR107")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR095")
+					(reference "#PWR95")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR083")
+					(reference "#PWR83")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR047")
+					(reference "#PWR47")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR071")
+					(reference "#PWR71")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR059")
+					(reference "#PWR59")
 					(unit 1)
 				)
 			)
@@ -4910,7 +4784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.168 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -5439,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 71.12 85.3948 0)
 			(hide yes)
 			(show_name no)
@@ -5677,7 +5551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -5999,7 +5873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 117.348 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +5972,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "BAT54LT1G"
 			(at 96.52 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6109,7 +5983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6164,6 +6038,17 @@
 				)
 			)
 		)
+		(property "DKPN" "BAT54LT1GOSCT-ND"
+			(at 99.06 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a6e2f4ca-4c0c-4093-bfd7-9729737bedec")
 		)
@@ -6208,7 +6093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 262.89 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -6218,7 +6103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "638db91e-0c2e-4c4b-b26d-9bf6193928f6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 262.89 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6229,8 +6114,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 266.7 106.68 0)
+		(property "Value" "GND"
+			(at 262.89 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6261,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 262.89 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6278,35 +6163,35 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0129")
+					(reference "#PWR129")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR0117")
+					(reference "#PWR117")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0105")
+					(reference "#PWR105")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR093")
+					(reference "#PWR93")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR057")
+					(reference "#PWR57")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR045")
+					(reference "#PWR45")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR081")
+					(reference "#PWR81")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR069")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "BAT54LT1G"
 			(at 224.79 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6453,7 +6338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6498,6 +6383,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "BAT54LT1GOSCT-ND"
 			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6562,7 +6458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d5d6087-8138-4925-9e19-a69582782cd2")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR34"
 			(at 26.67 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6574,7 +6470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 81.28 0)
+			(at 26.67 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6622,42 +6518,42 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0118")
+					(reference "#PWR118")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR0106")
+					(reference "#PWR106")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR094")
+					(reference "#PWR94")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR082")
+					(reference "#PWR82")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR070")
+					(reference "#PWR70")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR058")
+					(reference "#PWR58")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 234.95 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -6668,7 +6564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "707bc3f3-2887-4e3f-8639-e81f9eba2712")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR44"
 			(at 234.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6679,8 +6575,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 234.95 106.68 0)
+		(property "Value" "GND"
+			(at 234.95 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6711,7 +6607,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 234.95 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6728,35 +6624,35 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0128")
+					(reference "#PWR128")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR0116")
+					(reference "#PWR116")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0104")
+					(reference "#PWR104")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR092")
+					(reference "#PWR92")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR056")
+					(reference "#PWR56")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR044")
+					(reference "#PWR44")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR080")
+					(reference "#PWR80")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR068")
+					(reference "#PWR68")
 					(unit 1)
 				)
 			)
@@ -6785,7 +6681,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "BAT54LT1G"
 			(at 106.68 90.1701 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +6692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6842,6 +6738,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "BAT54LT1GOSCT-ND"
+			(at 104.14 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6917,7 +6824,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "BAT54LT1G"
 			(at 191.77 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6928,7 +6835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 195.58 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6974,6 +6881,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 195.58 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "BAT54LT1GOSCT-ND"
+			(at 195.58 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7615,7 +7533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 117.348 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -7714,7 +7632,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.47u"
+		(property "Value" "1u"
 			(at 128.27 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +7643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 123.4948 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8386,7 +8304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfe39f25-d4ee-45fb-a1bc-b231cf7ec301")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR37"
 			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8446,35 +8364,35 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0121")
+					(reference "#PWR121")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR0109")
+					(reference "#PWR109")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR097")
+					(reference "#PWR97")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR085")
+					(reference "#PWR85")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR049")
+					(reference "#PWR49")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR037")
+					(reference "#PWR37")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR073")
+					(reference "#PWR73")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -8643,7 +8561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 165.862 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +8776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 174.752 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -8945,7 +8863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e98632ea-a930-418d-8fe6-23a0efbfdb99")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9005,35 +8923,35 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR0122")
+					(reference "#PWR122")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR0110")
+					(reference "#PWR110")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR098")
+					(reference "#PWR98")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR086")
+					(reference "#PWR86")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR050")
+					(reference "#PWR50")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/07764dc3-0703-4236-a94a-216dbd2b7532"
-					(reference "#PWR074")
+					(reference "#PWR74")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6/e3d2302f-3853-45cb-a241-06755ae599a8"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -9073,7 +8991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.238 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -9181,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 57.15 88.138 90)
 			(hide yes)
 			(show_name no)

@@ -692,7 +692,7 @@
         "uuid": "eb421281-26a1-483f-b39a-0425ec8eb8df"
       }
     ],
-    "used_designators": "NT1-2,#FLG1-6,FB1,#PWR9,#PWR130,#PWR139-148,J21-22",
+    "used_designators": "J22,U8,#FLG3-6,FB1-2,#PWR1,#PWR9,#PWR130-131,#PWR140-146,#PWR148",
     "variants": []
   },
   "sheets": [
@@ -701,12 +701,16 @@
       "Root"
     ],
     [
-      "7ac9a42b-6de6-41ec-8c26-25e06abc1307",
-      "MCU"
+      "72bfad13-4e40-4bac-b415-fd44c61ec083",
+      "Power"
     ],
     [
       "09b79dd0-426f-45f8-8b40-abaa4f7beb7c",
       "USB"
+    ],
+    [
+      "7ac9a42b-6de6-41ec-8c26-25e06abc1307",
+      "MCU"
     ],
     [
       "d196d4b4-6022-462f-b84d-8329b2cd3e57",
