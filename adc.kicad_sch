@@ -804,12 +804,6 @@
 		(uuid "8fe62bf3-99ac-4b37-9662-752bced34a2f")
 	)
 	(junction
-		(at 179.07 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92f847ec-486e-4bcc-bb0c-e83a90b44ab6")
-	)
-	(junction
 		(at 102.87 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1137,7 +1131,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 96.52) (xy 196.85 96.52)
+			(xy 162.56 96.52) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1154,16 +1148,6 @@
 			(type default)
 		)
 		(uuid "d492ee98-d261-4a54-bd58-5cda3c6a156c")
-	)
-	(wire
-		(pts
-			(xy 162.56 96.52) (xy 179.07 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a241c5-b851-4144-bafd-7ec0b4794646")
 	)
 	(wire
 		(pts
@@ -2122,85 +2106,6 @@
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
 					(reference "TP90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 179.07 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a78d1979-0c5f-4653-9510-4e32d5fd589c")
-		(property "Reference" "TP96"
-			(at 177.8 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 181.61 94.4879 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Testpoints:M5_3in1_TestPoint"
-			(at 184.15 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 179.07 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9923a5b-7b08-49c7-ac30-0be2f4a2e7c8")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/ff2bf5b0-8d55-4ab2-beca-8dca5e42da3e"
-					(reference "TP96")
 					(unit 1)
 				)
 			)

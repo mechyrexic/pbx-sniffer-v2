@@ -172,8 +172,8 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_height_ratio": 0.6,
-          "td_length_ratio": 0.25,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
           "td_maxheight": 1.0,
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
@@ -183,8 +183,8 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_height_ratio": 0.6,
-          "td_length_ratio": 0.25,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
           "td_maxheight": 1.0,
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
@@ -194,8 +194,8 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_height_ratio": 0.6,
-          "td_length_ratio": 0.25,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
           "td_maxheight": 1.0,
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
@@ -692,7 +692,7 @@
         "uuid": "eb421281-26a1-483f-b39a-0425ec8eb8df"
       }
     ],
-    "used_designators": "U1-9,D1-57,C1-45,R1-102,JP1-8,TP1-96,FB1-2,#FLG1-4,J1-22,K1-16,Q1-17,SW1-2,Y1,#PWR1-185,T1-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

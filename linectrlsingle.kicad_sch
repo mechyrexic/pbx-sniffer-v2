@@ -919,8 +919,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 0 6.35 0)
+			(property "Reference" "T1"
+				(at 0.0127 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -930,7 +930,7 @@
 				)
 			)
 			(property "Value" "Transformer_1P_1S"
-				(at 0 -7.62 0)
+				(at 0.0127 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -939,7 +939,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Phones:TRAN6_SM-LP-5001_BRN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -962,6 +962,17 @@
 				)
 			)
 			(property "Description" "Transformer, single primary, single secondary"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DKPN" "SM-LP-5001-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1230,7 +1241,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1248,7 +1259,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1266,7 +1277,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6345,7 +6356,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54LT1G"
+		(property "Value" "RB520S30T5G"
 			(at 91.44 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6356,7 +6367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6411,7 +6422,7 @@
 				)
 			)
 		)
-		(property "DKPN" "BAT54LT1GOSCT-ND"
+		(property "DKPN" "RB520S30T5GOSCT-ND"
 			(at 93.98 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -7054,7 +7065,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54LT1G"
+		(property "Value" "RB520S30T5G"
 			(at 101.6 90.1701 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7065,7 +7076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7120,7 +7131,7 @@
 				)
 			)
 		)
-		(property "DKPN" "BAT54LT1GOSCT-ND"
+		(property "DKPN" "RB520S30T5GOSCT-ND"
 			(at 99.06 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8966,7 +8977,7 @@
 		(pin "1"
 			(uuid "fca98a7a-25ce-4e20-a4d9-ca75e829050f")
 		)
-		(pin "2"
+		(pin "6"
 			(uuid "f3ec8bf6-d922-44fe-b3c0-59e779765727")
 		)
 		(pin "4"
