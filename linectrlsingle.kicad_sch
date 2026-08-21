@@ -5267,7 +5267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5333,7 +5333,7 @@
 				)
 			)
 		)
-		(property "DKPN" "ZVP3306A-ND"
+		(property "DKPN" "BSS84PH6327XTSA2CT-ND"
 			(at 179.07 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5597,7 +5597,7 @@
 				)
 			)
 		)
-		(property "DKPN" "ZVP3306A-ND"
+		(property "DKPN" "BSS84PH6327XTSA2CT-ND"
 			(at 212.09 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8916,7 +8916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Phones:TY-145P"
+		(property "Footprint" "Phones:TRAN6_SM-LP-5001_BRN"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)

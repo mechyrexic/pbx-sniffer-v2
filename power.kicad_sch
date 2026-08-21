@@ -3746,7 +3746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3812,7 +3812,7 @@
 				)
 			)
 		)
-		(property "DKPN" "ZVP3306A-ND"
+		(property "DKPN" "BSS84PH6327XTSA2CT-ND"
 			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
