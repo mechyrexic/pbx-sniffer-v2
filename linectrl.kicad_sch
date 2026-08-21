@@ -11,7 +11,7 @@
 		(comment 4 "Tobe Cynar")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:LM358"
+		(symbol "Amplifier_Operational:TLV2372"
 			(pin_names
 				(offset 0.127)
 			)
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM358"
+			(property "Value" "TLV2372"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +53,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,7 @@
 					)
 				)
 			)
-			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -107,7 +107,7 @@
 					)
 				)
 			)
-			(symbol "LM358_1_1"
+			(symbol "TLV2372_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -175,7 +175,7 @@
 					)
 				)
 			)
-			(symbol "LM358_2_1"
+			(symbol "TLV2372_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -243,7 +243,7 @@
 					)
 				)
 			)
-			(symbol "LM358_3_1"
+			(symbol "TLV2372_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -273,6 +273,162 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -540,7 +696,7 @@
 	)
 	(rectangle
 		(start 101.6 121.92)
-		(end 129.54 142.24)
+		(end 129.54 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -583,6 +739,12 @@
 		(uuid "924f5b56-f291-4497-8de1-ad0b59c2d7cb")
 	)
 	(junction
+		(at 109.22 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "613f49c0-63bf-45eb-80a5-5ee4e442f73c")
+	)
+	(junction
 		(at 132.08 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -596,23 +758,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 135.89) (xy 124.46 133.35)
+			(xy 124.46 152.4) (xy 124.46 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "008809d8-cc6b-41c3-8646-65a46eb0cbb7")
-	)
-	(wire
-		(pts
-			(xy 109.22 130.81) (xy 109.22 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b48b67-2cf7-478c-9b80-cc568326e121")
 	)
 	(wire
 		(pts
@@ -786,6 +938,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 138.43) (xy 111.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f19100b-686d-4b6d-89a4-b20e5ee84d1b")
+	)
+	(wire
+		(pts
 			(xy 109.22 110.49) (xy 105.41 110.49)
 		)
 		(stroke
@@ -806,6 +968,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 132.08) (xy 111.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f95b33f-a036-462b-bcb5-286164bbcb75")
+	)
+	(wire
+		(pts
 			(xy 105.41 110.49) (xy 105.41 92.71)
 		)
 		(stroke
@@ -813,6 +985,16 @@
 			(type default)
 		)
 		(uuid "916c44b7-f4c9-4c38-8dc5-c8260e75e4d5")
+	)
+	(wire
+		(pts
+			(xy 109.22 130.81) (xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9756cf56-6b48-4456-81ef-543462ffaafe")
 	)
 	(wire
 		(pts
@@ -846,6 +1028,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 132.08) (xy 111.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb62d83-bb81-4023-84b2-810a613bfe4c")
+	)
+	(wire
+		(pts
 			(xy 180.34 95.25) (xy 180.34 90.17)
 		)
 		(stroke
@@ -863,6 +1055,16 @@
 			(type default)
 		)
 		(uuid "e751bf20-e154-4a93-8aa9-16ee1383a5b2")
+	)
+	(wire
+		(pts
+			(xy 109.22 132.08) (xy 109.22 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead8722d-f022-4b61-b876-129d2daba971")
 	)
 	(wire
 		(pts
@@ -941,18 +1143,19 @@
 		(uuid "de7fcf3f-e880-42da-bb2f-014fa970a932")
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 168.91 95.25 0)
-		(unit 2)
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 116.84 147.32 90)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "28887f51-5b35-4ce6-9186-ce42e958f6c4")
-		(property "Reference" "U2"
-			(at 168.91 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "06900f12-8adf-4c00-b6b6-488f5e41c7e8")
+		(property "Reference" "U4"
+			(at 116.84 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -961,8 +1164,8 @@
 				)
 			)
 		)
-		(property "Value" "LM358"
-			(at 168.91 86.36 0)
+		(property "Value" "TLV2372"
+			(at 116.84 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -971,8 +1174,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 168.91 95.25 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 116.84 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -982,8 +1185,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 168.91 95.25 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 116.84 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,8 +1196,130 @@
 				)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 168.91 95.25 0)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 116.84 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "TLV2372ID-ND"
+			(at 116.84 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d914b403-545a-48b1-a936-8f813daa584a")
+		)
+		(pin "4"
+			(uuid "7c0764f5-b038-444a-83e5-1a33cdb69523")
+		)
+		(pin "3"
+			(uuid "493d53bf-4239-4f04-85b2-acf019d74eba")
+		)
+		(pin "5"
+			(uuid "ca12844c-063c-4f3b-a6b3-82d6bb775ccb")
+		)
+		(pin "7"
+			(uuid "7a1c8ca3-c362-4790-9a8a-79fa607409fa")
+		)
+		(pin "8"
+			(uuid "09091d63-6f39-427a-9dcb-1eb4aa15016a")
+		)
+		(pin "2"
+			(uuid "6a71cb1d-48ff-45c0-abc2-f8f535c81194")
+		)
+		(pin "1"
+			(uuid "d95a725d-9d32-4bf3-ad91-12da3527c80b")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U7")
+					(unit 3)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U6")
+					(unit 3)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "U4")
+					(unit 3)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 111.76 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f9ed9ab-5769-43f3-a6db-6ae357eb9dec")
+		(property "Reference" "C18"
+			(at 114.3 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 114.3 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 111.76 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1005,46 +1330,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "85d5689d-27aa-4e03-997c-09d3881cbd4d")
+			(uuid "f140155f-f938-458c-9671-edfc91734536")
 		)
 		(pin "1"
-			(uuid "4a01c590-1296-4df9-9977-4c3feda7cf85")
-		)
-		(pin "5"
-			(uuid "62c4bf01-029d-409c-864f-0b831762b1a8")
-		)
-		(pin "7"
-			(uuid "2a259017-3b90-44f0-b000-f5ea09a7ddea")
-		)
-		(pin "3"
-			(uuid "b5fe4789-5eaf-408b-94dc-0ce54848cff7")
-		)
-		(pin "6"
-			(uuid "917ca842-ccab-41cd-bb5e-0c87c16a16bb")
-		)
-		(pin "8"
-			(uuid "d0b17791-a592-4374-a151-1da6200da796")
-		)
-		(pin "4"
-			(uuid "a2a9087d-73c3-42ba-8952-42fb083c2ad6")
+			(uuid "104491bf-19ab-4eac-b3ef-a37a1e06c5b7")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "U5")
-					(unit 2)
+					(reference "C39")
+					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "U4")
-					(unit 2)
+					(reference "C32")
+					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "U2")
-					(unit 2)
+					(reference "C18")
+					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "U3")
-					(unit 2)
+					(reference "C25")
+					(unit 1)
 				)
 			)
 		)
@@ -1060,7 +1367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "314fe034-ef9a-4d71-aaf6-aab87870481d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR031"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -1120,137 +1427,27 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR018")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR016")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR012")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR014")
+					(reference "#PWR062")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 116.84 130.81 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4206f170-f708-4e2a-a3d4-4cb77f802879")
-		(property "Reference" "U2"
-			(at 116.84 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358"
-			(at 116.84 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 116.84 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 116.84 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 116.84 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "85d5689d-27aa-4e03-997c-09d3881cbd4e")
-		)
-		(pin "1"
-			(uuid "4a01c590-1296-4df9-9977-4c3feda7cf86")
-		)
-		(pin "5"
-			(uuid "62c4bf01-029d-409c-864f-0b831762b1a9")
-		)
-		(pin "7"
-			(uuid "2a259017-3b90-44f0-b000-f5ea09a7ddeb")
-		)
-		(pin "3"
-			(uuid "b5fe4789-5eaf-408b-94dc-0ce54848cff8")
-		)
-		(pin "6"
-			(uuid "917ca842-ccab-41cd-bb5e-0c87c16a16bc")
-		)
-		(pin "8"
-			(uuid "d0b17791-a592-4374-a151-1da6200da797")
-		)
-		(pin "4"
-			(uuid "a2a9087d-73c3-42ba-8952-42fb083c2ad7")
-		)
-		(instances
-			(project "pbx-sniffer-v2"
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "U5")
-					(unit 3)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "U4")
-					(unit 3)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "U2")
-					(unit 3)
-				)
-				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "U3")
-					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 135.89 0)
+		(at 111.76 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1258,9 +1455,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "97edfbdb-b892-4af1-b90d-c76b51cacebf")
-		(property "Reference" "#PWR13"
-			(at 124.46 142.24 0)
+		(uuid "3320bd1e-57fd-4683-a467-9b05f3f4c16a")
+		(property "Reference" "#PWR032"
+			(at 111.76 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1271,7 +1468,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 139.7 0)
+			(at 111.76 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1281,7 +1478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 135.89 0)
+			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,7 +1489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 135.89 0)
+			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1303,7 +1500,96 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 135.89 0)
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff9d51de-5664-43c9-856c-0c8995827583")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97edfbdb-b892-4af1-b90d-c76b51cacebf")
+		(property "Reference" "#PWR033"
+			(at 124.46 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,26 +1605,146 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "#PWR19")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "#PWR17")
+					(reference "#PWR095")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "#PWR13")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "#PWR15")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM358")
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 168.91 95.25 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3c0bef4-7cf5-471e-a55f-82f1e3920b9b")
+		(property "Reference" "U4"
+			(at 168.91 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 173.99 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 168.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 168.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 168.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "TLV2372ID-ND"
+			(at 168.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d914b403-545a-48b1-a936-8f813daa584b")
+		)
+		(pin "4"
+			(uuid "7c0764f5-b038-444a-83e5-1a33cdb69524")
+		)
+		(pin "3"
+			(uuid "493d53bf-4239-4f04-85b2-acf019d74ebb")
+		)
+		(pin "5"
+			(uuid "ca12844c-063c-4f3b-a6b3-82d6bb775ccc")
+		)
+		(pin "7"
+			(uuid "7a1c8ca3-c362-4790-9a8a-79fa607409fb")
+		)
+		(pin "8"
+			(uuid "09091d63-6f39-427a-9dcb-1eb4aa15016b")
+		)
+		(pin "2"
+			(uuid "6a71cb1d-48ff-45c0-abc2-f8f535c81195")
+		)
+		(pin "1"
+			(uuid "d95a725d-9d32-4bf3-ad91-12da3527c80c")
+		)
+		(instances
+			(project "pbx-sniffer-v2"
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
+					(reference "U7")
+					(unit 2)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
+					(reference "U6")
+					(unit 2)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
+					(reference "U4")
+					(unit 2)
+				)
+				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
 		(at 120.65 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -1347,9 +1753,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e0c27eed-b2ca-4dc8-b413-16ab592dd3e8")
-		(property "Reference" "U2"
-			(at 120.65 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "f2ee3f43-3659-4a96-a466-1cdb232f5654")
+		(property "Reference" "U4"
+			(at 120.65 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1358,8 +1765,8 @@
 				)
 			)
 		)
-		(property "Value" "LM358"
-			(at 120.65 86.36 0)
+		(property "Value" "TLV2372"
+			(at 120.65 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1368,7 +1775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1379,7 +1786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
 			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1390,7 +1797,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
 			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1401,46 +1808,57 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "85d5689d-27aa-4e03-997c-09d3881cbd4f")
-		)
-		(pin "1"
-			(uuid "4a01c590-1296-4df9-9977-4c3feda7cf87")
-		)
-		(pin "5"
-			(uuid "62c4bf01-029d-409c-864f-0b831762b1aa")
-		)
-		(pin "7"
-			(uuid "2a259017-3b90-44f0-b000-f5ea09a7ddec")
-		)
-		(pin "3"
-			(uuid "b5fe4789-5eaf-408b-94dc-0ce54848cff9")
+		(property "DKPN" "TLV2372ID-ND"
+			(at 120.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "6"
-			(uuid "917ca842-ccab-41cd-bb5e-0c87c16a16bd")
-		)
-		(pin "8"
-			(uuid "d0b17791-a592-4374-a151-1da6200da798")
+			(uuid "d914b403-545a-48b1-a936-8f813daa584c")
 		)
 		(pin "4"
-			(uuid "a2a9087d-73c3-42ba-8952-42fb083c2ad8")
+			(uuid "7c0764f5-b038-444a-83e5-1a33cdb69525")
+		)
+		(pin "3"
+			(uuid "493d53bf-4239-4f04-85b2-acf019d74ebc")
+		)
+		(pin "5"
+			(uuid "ca12844c-063c-4f3b-a6b3-82d6bb775ccd")
+		)
+		(pin "7"
+			(uuid "7a1c8ca3-c362-4790-9a8a-79fa607409fc")
+		)
+		(pin "8"
+			(uuid "09091d63-6f39-427a-9dcb-1eb4aa15016c")
+		)
+		(pin "2"
+			(uuid "6a71cb1d-48ff-45c0-abc2-f8f535c81196")
+		)
+		(pin "1"
+			(uuid "d95a725d-9d32-4bf3-ad91-12da3527c80d")
 		)
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/0b0224b2-e87f-4eed-adc6-d3b2e3f746a5"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/b0f9f7c2-daf3-42bc-b325-e20704d56b03"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/d196d4b4-6022-462f-b84d-8329b2cd3e57"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/e134bfb4-8959-4249-a7dd-8912fc4b0eb6"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)

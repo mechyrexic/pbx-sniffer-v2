@@ -2087,7 +2087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ef0d908-fa5c-4659-b8ac-e3739b251aca")
-		(property "Reference" "#PWR141"
+		(property "Reference" "#PWR01"
 			(at 175.26 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -2147,7 +2147,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR141")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2164,7 +2164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819fc887-0646-4885-be47-16c9b17072a2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR02"
 			(at 194.31 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2224,7 +2224,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df"
-					(reference "#PWR011")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2666,7 +2666,7 @@
 				(justify right)
 			)
 		)
-		(pin "spi0clk" input
+		(pin "spi0clk" output
 			(at 114.3 92.71 0)
 			(uuid "ba624e71-d178-42f9-992e-c108cfd27258")
 			(effects
@@ -2686,7 +2686,7 @@
 				(justify right)
 			)
 		)
-		(pin "spi0mosi" input
+		(pin "spi0mosi" output
 			(at 114.3 100.33 0)
 			(uuid "a2b7c2d3-0a48-427b-a05d-b8519a0cae12")
 			(effects

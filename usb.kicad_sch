@@ -922,6 +922,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 73.66 77.47)
+		(end 151.13 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1b75270b-5227-43b0-98c8-375aa6cd0b53")
+	)
+	(text "USB Receptacle"
+		(exclude_from_sim no)
+		(at 82.55 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6237697-c260-45dd-bd92-fa598143d94c")
+	)
 	(junction
 		(at 137.16 107.95)
 		(diameter 0)
@@ -1195,7 +1217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1caf60c8-9037-4333-8a2e-66585cc9f261")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR017"
 			(at 137.16 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1255,7 +1277,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/09b79dd0-426f-45f8-8b40-abaa4f7beb7c"
-					(reference "#PWR4")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1273,7 +1295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63bbb455-f868-467c-8639-28fe4c63a612")
-		(property "Reference" "R73"
+		(property "Reference" "R3"
 			(at 134.62 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1337,7 +1359,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/09b79dd0-426f-45f8-8b40-abaa4f7beb7c"
-					(reference "R73")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1355,7 +1377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68151195-f372-4aaf-9088-98a4c93c4d19")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR015"
 			(at 86.36 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1415,7 +1437,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/09b79dd0-426f-45f8-8b40-abaa4f7beb7c"
-					(reference "#PWR3")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1433,7 +1455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87dba916-a984-4427-9e7a-7216520142ea")
-		(property "Reference" "J19"
+		(property "Reference" "J2"
 			(at 93.98 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1545,7 +1567,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/09b79dd0-426f-45f8-8b40-abaa4f7beb7c"
-					(reference "J19")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1563,7 +1585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93381fcd-c592-4096-b844-60ddc3b924da")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR016"
 			(at 93.98 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1623,7 +1645,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/09b79dd0-426f-45f8-8b40-abaa4f7beb7c"
-					(reference "#PWR2")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1641,7 +1663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb3a5599-fce8-4d6f-b21d-638d149d8a14")
-		(property "Reference" "R74"
+		(property "Reference" "R4"
 			(at 144.78 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,7 +1727,7 @@
 		(instances
 			(project "pbx-sniffer-v2"
 				(path "/eb421281-26a1-483f-b39a-0425ec8eb8df/09b79dd0-426f-45f8-8b40-abaa4f7beb7c"
-					(reference "R74")
+					(reference "R4")
 					(unit 1)
 				)
 			)
